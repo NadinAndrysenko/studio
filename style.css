@@ -1,3 +1,7 @@
+body {
+    font-family: ;
+}
+
 .studio {
     color: #2196F3;
 }
@@ -71,4 +75,38 @@
 
 .xz {
     color: #FFFFFF99;
+}
+
+.black {
+  color: #212121;
+}
+
+.btt {
+    color: #FFFFFF;
+    background-color: #2196F3;
+    border-color: #2196F3;
+
+}
+
+.btn {
+    background-color: #F5F4FA;
+    color: #212121;
+    border-color: #F5F4FA;
+}
+
+.portfolio {
+    color: #212121;
+}
+
+
+.wt {
+    color: #FFFFFF;
+}
+
+.colte {
+    color: #2196F3;
+}
+
+.bground {
+   background-color: #ECECEC;
 }
