@@ -14,26 +14,28 @@ body {
     color: #757575;
 }
 
-.button {
+.section1-button {
     background-color: #2196F3;
     color: #FFFFFF;
     border: #2196F3;
 }
 
-.back {
+.section1 {
     background-color: #2F303A;
 }
 
-.effectively {
+.section1-headline {
     color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;;
 }
 
 .text {
     color: #757575;
 }
 
-.team {
+.our-team-positions {
     color: #757575;
+    font-family: 'Roboto', sans-serif;;
 }
 
 .foot {
@@ -41,61 +43,65 @@ body {
 }
 
 
-.info {
+.foot-link {
     color: #FFFFFF99;
+    fo
 }
 
-.webs {
+.foot-logo {
     color:#FFFFFF;
+    font-family: 'Raleway', sans-serif;;
 }
 
 .team2 {
     background-color: #F5F4FA;
 }
 
-.hed {
+.head2-lists {
     color: #2196F3;
 }
 
-.num {
+.head2-info {
     color: #757575;
+    font-family: 'Roboto', sans-serif;;
 }
 
-.idk {
+.section4-titels {
     color: #757575;
+    font-family: 'Roboto', sans-serif;;
 }
 
 .bg {
     background-color: #2F303A;
 }
 
-.colte {
-    color: #FFFFFF;
-}
-
 .xz {
     color: #FFFFFF99;
 }
 
-.black {
+.section2-title{
   color: #212121;
+  font-family: 'Roboto', sans-serif;;
 }
 
-.btt {
+.section3-button1 {
     color: #FFFFFF;
     background-color: #2196F3;
     border-color: #2196F3;
+    font-family: 'Roboto', sans-serif;;
 
 }
 
-.btn {
+.section3-button2 {
     background-color: #F5F4FA;
     color: #212121;
     border-color: #F5F4FA;
+    font-family: 'Roboto', sans-serif;;
 }
 
-.portfolio {
+.head2-list {
     color: #212121;
+    font-family: 'Roboto', sans-serif;;
 }
 
 
@@ -107,6 +113,43 @@ body {
     color: #2196F3;
 }
 
-.bground {
+.head {
    background-color: #ECECEC;
+}
+
+.head-title {
+    font-family: 'Raleway', sans-serif;;
+}
+
+.head-list {
+   font-family: 'Roboto', sans-serif;; 
+}
+
+.head-link {
+    font-family: 'Roboto', sans-serif;; 
+}
+
+.section2-text {
+    font-family: 'Roboto', sans-serif;;
+}
+
+.leisure-title {
+    font-family: 'Roboto', sans-serif;;
+}
+
+.our-tem-title {
+    font-family: 'Roboto', sans-serif;;
+}
+
+.our-team-names {
+    font-family: 'Roboto', sans-serif;;
+}
+
+.head2-title {
+    font-family: 'Raleway', sans-serif;;
+}
+
+
+.section4-name {
+    font-family: 'Roboto', sans-serif;;
 }
