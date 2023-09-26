@@ -153,3 +153,10 @@ body {
 .section4-name {
     font-family: 'Roboto', sans-serif;;
 }
+
+.container {
+    width: 1600;
+    padding: 0 15px ;
+    margin-left: auto;
+    margin-right: auto;
+}
