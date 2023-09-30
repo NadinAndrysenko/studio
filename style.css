@@ -14,17 +14,17 @@ body {
     color: #757575;
 }
 
-.section1-button {
+.effectively-button {
     background-color: #2196F3;
     color: #FFFFFF;
     border: #2196F3;
 }
 
-.section1 {
+.effectively {
     background-color: #2F303A;
 }
 
-.section1-headline {
+.effectively-headline {
     color: #FFFFFF;
     font-family: 'Roboto', sans-serif;;
 }
@@ -66,7 +66,7 @@ body {
     font-family: 'Roboto', sans-serif;;
 }
 
-.section4-titels {
+.projects-titels {
     color: #757575;
     font-family: 'Roboto', sans-serif;;
 }
@@ -79,12 +79,12 @@ body {
     color: #FFFFFF99;
 }
 
-.section2-title{
+.notes-title{
   color: #212121;
   font-family: 'Roboto', sans-serif;;
 }
 
-.section3-button1 {
+.roster-button1 {
     color: #FFFFFF;
     background-color: #2196F3;
     border-color: #2196F3;
@@ -92,7 +92,7 @@ body {
 
 }
 
-.section3-button2 {
+.roster-button2 {
     background-color: #F5F4FA;
     color: #212121;
     border-color: #F5F4FA;
@@ -127,36 +127,49 @@ body {
 
 .head-link {
     font-family: 'Roboto', sans-serif;; 
+    color: #757575;
 }
 
-.section2-text {
+.notes-text {
     font-family: 'Roboto', sans-serif;;
+    color: #757575;
 }
 
 .leisure-title {
     font-family: 'Roboto', sans-serif;;
+    color: #212121;
 }
 
-.our-tem-title {
+.our-team-title {
     font-family: 'Roboto', sans-serif;;
+    color: #212121;
 }
 
 .our-team-names {
     font-family: 'Roboto', sans-serif;;
+    color: #212121;
 }
 
 .head2-title {
     font-family: 'Raleway', sans-serif;;
+    color: #212121;
 }
 
 
-.section4-name {
+.projects-name {
     font-family: 'Roboto', sans-serif;;
+    color: #212121;
+}
+
+
+.head-link2 {
+    font-family: 'Roboto', sans-serif;; 
 }
 
 .container {
-    width: 1600;
+    width: 1203;
     padding: 0 15px ;
     margin-left: auto;
     margin-right: auto;
 }
+
