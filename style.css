@@ -167,9 +167,14 @@ body {
 }
 
 .container {
-    width: 1203;
+    /* width: 1203;
     padding: 0 15px ;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; */
+    width: 1203px ;
+    padding: 0 15 ;
+    margin-left: auto ;
+    margin-right: auto ;
+    
 }
 
