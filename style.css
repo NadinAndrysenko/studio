@@ -167,11 +167,7 @@ body {
 }
 
 .container {
-    /* width: 1203;
-    padding: 0 15px ;
-    margin-left: auto;
-    margin-right: auto; */
-    width: 1203px ;
+    width: 1200px ;
     padding: 0 15 ;
     margin-left: auto ;
     margin-right: auto ;
