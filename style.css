@@ -45,12 +45,15 @@ body {
 
 .foot-link {
     color: #FFFFFF99;
-    fo
+    margin-bottom: 9px;
 }
 
 .foot-logo {
     color:#FFFFFF;
     font-family: 'Raleway', sans-serif;;
+    padding-top:60px ;
+    margin-bottom:20px ;
+    
 }
 
 .team2 {
@@ -115,10 +118,14 @@ body {
 
 .head {
    background-color: #ECECEC;
+   padding-top:32px ;
 }
 
 .head-title {
     font-family: 'Raleway', sans-serif;;
+    margin-left: 50px;
+    padding-top: 24px;
+    padding-bottom: 25px;
 }
 
 .head-list {
@@ -138,11 +145,18 @@ body {
 .leisure-title {
     font-family: 'Roboto', sans-serif;;
     color: #212121;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    margin-top: 118px;
 }
 
 .our-team-title {
     font-family: 'Roboto', sans-serif;;
     color: #212121;
+    display: flex;
+justify-content: center;
+padding-bottom: 50px;
 }
 
 .our-team-names {
@@ -168,9 +182,56 @@ body {
 
 .container {
     width: 1200px ;
-    padding: 0 15 ;
     margin-left: auto ;
     margin-right: auto ;
-    
+    padding: 0 , 15px ;
+
 }
+
+.head-ul {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-top:24px ;
+    padding-bottom:25px ;
+}
+
+
+.head-title {
+    display: flex;
+    justify-content: start;
+}
+
+.header-ul {
+    display: flex;
+    justify-content: end;
+    gap: 50px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.effectively-headline {
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+    padding-bottom: 280px;
+}
+
+.effectively-button {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.notes-ul {
+    display: flex;
+    gap: 30px;
+}
+
+.leisure-ul {
+    display: flex;
+    gap: 30px;
+    padding-bottom: 188px;
+}
+
 
