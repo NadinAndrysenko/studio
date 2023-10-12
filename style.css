@@ -27,6 +27,7 @@ body {
 .effectively-headline {
     color: #FFFFFF;
     font-family: 'Roboto', sans-serif;;
+    
 }
 
 .text {
@@ -36,6 +37,7 @@ body {
 .our-team-positions {
     color: #757575;
     font-family: 'Roboto', sans-serif;;
+    padding-bottom: 30px;
 }
 
 .foot {
@@ -100,6 +102,7 @@ body {
     color: #212121;
     border-color: #F5F4FA;
     font-family: 'Roboto', sans-serif;;
+    
 }
 
 .head2-list {
@@ -126,6 +129,8 @@ body {
     margin-left: 50px;
     padding-top: 24px;
     padding-bottom: 25px;
+    display: flex;
+    justify-content: start;
 }
 
 .head-list {
@@ -162,17 +167,23 @@ padding-bottom: 50px;
 .our-team-names {
     font-family: 'Roboto', sans-serif;;
     color: #212121;
+    padding-top:30px ;
+    margin-bottom:10px ;
 }
 
 .head2-title {
     font-family: 'Raleway', sans-serif;;
     color: #212121;
+    display: flex;
+    justify-content: start;
 }
 
 
 .projects-name {
     font-family: 'Roboto', sans-serif;;
     color: #212121;
+    padding-top: 20px;
+    margin-bottom: 4px;
 }
 
 
@@ -191,16 +202,11 @@ padding-bottom: 50px;
 .head-ul {
     display: flex;
     justify-content: center;
-    gap: 50px;
     padding-top:24px ;
     padding-bottom:25px ;
+    gap: 50px;
 }
 
-
-.head-title {
-    display: flex;
-    justify-content: start;
-}
 
 .header-ul {
     display: flex;
@@ -234,4 +240,42 @@ padding-bottom: 50px;
     padding-bottom: 188px;
 }
 
+.header2-ul {
+    display: flex;
+    justify-content: end;
+    padding-top:24px ;
+    padding-bottom:25px ;
+    gap: 50px;
+}
 
+.head-li {
+    color: #2196F3;
+}
+
+.header2-info {
+    color: #2196F3;
+}
+
+.head2-ul {
+    display: flex;
+    justify-content: center;
+    padding-top:24px ;
+    padding-bottom:25px ;
+    gap: 50px;
+}
+
+
+.roster-ul {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    padding-top: 94px;
+}
+
+.projects-ul {
+    display: flex;
+    gap: 30px;
+    padding-top: 56px;
+    padding-bottom: 204px;
+    flex-wrap: wrap;
+}
