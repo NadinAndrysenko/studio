@@ -18,16 +18,25 @@ body {
     background-color: #2196F3;
     color: #FFFFFF;
     border: #2196F3;
+    padding-left: 692px;
+    padding-right: 692px;
+    padding-top: 350px;
+    padding-bottom: 200px;
 }
 
 .effectively {
     background-color: #2F303A;
+    padding-top: 200px;
+    padding-bottom: 280px;
 }
 
 .effectively-headline {
     color: #FFFFFF;
     font-family: 'Roboto', sans-serif;;
-    
+    padding-left: 452px;
+    padding-right: 452px;
+    padding-top: 200px;
+    padding-bottom: 280px;
 }
 
 .text {
@@ -48,6 +57,11 @@ body {
 .foot-link {
     color: #FFFFFF99;
     margin-bottom: 9px;
+}
+
+.footer-link {
+    color: #FFFFFF99;
+    padding-bottom: 60px;
 }
 
 .foot-logo {
@@ -126,11 +140,6 @@ body {
 
 .head-title {
     font-family: 'Raleway', sans-serif;;
-    margin-left: 50px;
-    padding-top: 24px;
-    padding-bottom: 25px;
-    display: flex;
-    justify-content: start;
 }
 
 .head-list {
@@ -174,8 +183,7 @@ padding-bottom: 50px;
 .head2-title {
     font-family: 'Raleway', sans-serif;;
     color: #212121;
-    display: flex;
-    justify-content: start;
+
 }
 
 
@@ -191,20 +199,29 @@ padding-bottom: 50px;
     font-family: 'Roboto', sans-serif;; 
 }
 
+.header-container {
+    width: 1200px ;
+    margin-left: auto ;
+    margin-right: auto ;
+    padding: 0 15px ;
+    display: flex;
+    align-items: center;
+
+}
+
 .container {
     width: 1200px ;
     margin-left: auto ;
     margin-right: auto ;
-    padding: 0 , 15px ;
-
+    padding: 0 15px ;
 }
 
 .head-ul {
     display: flex;
     justify-content: center;
-    padding-top:24px ;
-    padding-bottom:25px ;
     gap: 50px;
+    padding-right: 344px;
+    padding-left: 93px;
 }
 
 
@@ -216,22 +233,18 @@ padding-bottom: 50px;
     padding-bottom: 32px;
 }
 
-.effectively-headline {
-    display: flex;
-    justify-content: center;
-    padding-top: 200px;
-    padding-bottom: 280px;
-}
 
 .effectively-button {
     display: flex;
     justify-content: center;
-    margin-bottom: 30px;
+    margin-top: 30px;
+    
 }
 
 .notes-ul {
     display: flex;
     gap: 30px;
+    padding-top: 94px;
 }
 
 .leisure-ul {
@@ -259,9 +272,9 @@ padding-bottom: 50px;
 .head2-ul {
     display: flex;
     justify-content: center;
-    padding-top:24px ;
-    padding-bottom:25px ;
     gap: 50px;
+    padding-right: 344px;
+    padding-left: 39px;
 }
 
 
@@ -278,4 +291,8 @@ padding-bottom: 50px;
     padding-top: 56px;
     padding-bottom: 204px;
     flex-wrap: wrap;
+}
+
+.our-team-ul {
+    display: flex;
 }
