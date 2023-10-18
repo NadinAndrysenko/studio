@@ -15,3 +15,7 @@ button {
     cursor: pointer;
     border: none;
 }
+
+ul {
+    list-style-type: none;
+}
