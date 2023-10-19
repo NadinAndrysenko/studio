@@ -344,7 +344,8 @@ padding-bottom: 50px;
 }
 
 .container {
-    width: 1200px ;
+    max-width: 1200px ;
+    width: 100%;
     margin-left: auto ;
     margin-right: auto ;
     padding: 0 15px ;
@@ -432,6 +433,7 @@ padding-bottom: 50px;
     padding-top: 56px;
     padding-bottom: 204px;
     flex-wrap: wrap;
+    flex-basis: calc(100% - 90px / 3;)
 }
 
 .our-team-ul {
