@@ -1,12 +1,12 @@
 
 .studio {
     color: #2196F3;
-font-family: Roboto;
-font-size: 14px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-letter-spacing: 0.28px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
 }
 
 .studio2 {
@@ -34,12 +34,12 @@ letter-spacing: 0.28px;
 
 .number {
     color: #757575;
-font-family: Roboto;
-font-size: 14px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-letter-spacing: 0.28px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
 }
 
 .effectively-button {
@@ -75,6 +75,11 @@ margin: auto;
     line-height: 60px; /* 136.364% */
     letter-spacing: 2.64px;
     text-transform: uppercase;
+    width: 696px;
+    height: 120px;
+    margin: auto;
+
+    
 }
 
 .text {
@@ -95,6 +100,7 @@ margin: auto;
 
 .foot {
     background-color: #2F303A;
+    padding-bottom: 60px;
 }
 
 
@@ -234,13 +240,32 @@ margin: auto;
 
 
 .head {
-   background-color: #ECECEC;
    padding-top:24px ;
    padding-bottom: 25px;
 }
 
 .head-title {
     color: #000;
+font-family: Raleway;
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.78px;
+}
+
+.header-title {
+    color: #2196F3;
+    font-family: Raleway;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
+}
+
+.header2-title {
+    color: #FFF;
 font-family: Raleway;
 font-size: 26px;
 font-style: normal;
@@ -287,6 +312,7 @@ letter-spacing: 0.78px;
     display: flex;
 justify-content: center;
 margin-bottom: 50px;
+padding-top: 94px;
 }
 
 .our-team-names {
@@ -381,7 +407,7 @@ margin-bottom: 50px;
 .leisure-ul {
     display: flex;
     gap: 30px;
-    padding-bottom: 188px;
+    padding-bottom: 94px;
 }
 
 .header2-ul {
@@ -422,6 +448,7 @@ margin-bottom: 50px;
     display: flex;
     gap: 30px;
     padding-top: 56px;
+    
     flex-wrap: wrap;
     flex-basis: calc(100% - 90px / 3;)
 }
@@ -433,9 +460,14 @@ margin-bottom: 50px;
 .our-team-ul {
     display: flex;
     gap: 30px;
+    padding-bottom: 94px;
 }
 
 .our-team-img {
     width: 260px;
     height: 270px;
+}
+
+.our-team {
+    background-color: #F5F4FA;
 }
