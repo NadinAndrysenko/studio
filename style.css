@@ -126,18 +126,28 @@ margin: auto;
 }
 
 
-.foot-logo {
+
+
+.heading-title {
     color: #2196F3;
+font-family: Raleway;
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.78px; 
+}
+
+.heading-title2 {
+    color: #FFF;
     font-family: Raleway;
     font-size: 26px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    letter-spacing: 0.78px;
-    padding-top:60px ;
-    margin-bottom:20px ;
-    
+    letter-spacing: 0.78px;  
 }
+
 
 .team2 {
     background-color: #F5F4FA;
@@ -327,19 +337,6 @@ padding-top: 94px;
     padding-top:30px ;
     margin-bottom:10px ;
 }
-
-.head2-title {
-    color: #000;
-    font-family: Raleway;
-    font-size: 26px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 0.78px;
-    margin-right: 93px;
-
-}
-
 
 .projects-name {
     color: #212121;
