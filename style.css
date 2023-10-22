@@ -398,12 +398,19 @@ padding-top: 94px;
 .notes-ul {
     display: flex;
     gap: 30px;
+    
+}
+
+.notes {
     padding-top: 94px;
 }
 
 .leisure-ul {
     display: flex;
     gap: 30px;
+}
+
+.leisure {
     padding-bottom: 94px;
 }
 
@@ -457,6 +464,10 @@ padding-top: 94px;
 .our-team-ul {
     display: flex;
     gap: 30px;
+   
+}
+
+.our-team {
     padding-bottom: 94px;
 }
 
