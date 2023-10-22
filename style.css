@@ -44,10 +44,6 @@ letter-spacing: 0.28px;
 
 .effectively-button {
     background-color: #2196F3;
-    padding-left: 692px;
-    padding-right: 692px;
-    padding-top: 350px;
-    padding-bottom: 200px;
     color: #FFF;
 text-align: center;
 font-family: Roboto;
@@ -62,7 +58,7 @@ margin: auto;
 .effectively {
     background-color: #2F303A;
     padding-top: 200px;
-    padding-bottom: 280px;
+    padding-bottom: 200px;
 }
 
 .effectively-headline {
