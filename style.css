@@ -307,9 +307,14 @@ letter-spacing: 0.78px;
     letter-spacing: 1.08px;
     display: flex;
     justify-content: center;
-    padding-top: 118px;
     margin-bottom: 50px;
 }
+
+.leisure {
+    padding-top: 94px;
+}
+
+
 
 .our-team-title {
     color: #212121;
@@ -323,7 +328,12 @@ letter-spacing: 0.78px;
     display: flex;
 justify-content: center;
 margin-bottom: 50px;
-padding-top: 94px;
+}
+
+.our-team {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    background-color: #F5F4FA;
 }
 
 .our-team-names {
@@ -471,15 +481,8 @@ padding-top: 94px;
    
 }
 
-.our-team {
-    padding-bottom: 94px;
-}
 
 .our-team-img {
     width: 260px;
     height: 270px;
-}
-
-.our-team {
-    background-color: #F5F4FA;
 }
