@@ -199,6 +199,7 @@ letter-spacing: 0.78px;
     letter-spacing: 0.42px;
     text-transform: uppercase;
     margin-bottom: 10px;
+    margin-top: 30px;
 }
 
 .roster-button1 {
@@ -416,6 +417,7 @@ margin-bottom: 50px;
     display: flex;
     gap: 30px;
     
+    
 }
 
 .notes {
@@ -485,4 +487,33 @@ margin-bottom: 50px;
 .our-team-img {
     width: 260px;
     height: 270px;
+}
+
+.notes-li::before {
+    content: "";
+    display: inline-block;
+    width: 270px;
+    height: 120px;
+    background: #F5F4FA;
+    background-position: center;
+}
+
+.notes-li:nth-child(1)::before {
+    background-image: url(./img/antenna\ 1.png);
+    background-repeat: no-repeat;
+}
+
+.notes-li:nth-child(2)::before {
+    background-image: url(./img/clock\ 1.png);
+    background-repeat: no-repeat;
+}
+
+.notes-li:nth-child(3)::before {
+    background-image: url(./img/diagram\ 1.png);
+    background-repeat: no-repeat;
+}
+
+.notes-li:nth-child(4)::before {
+    background-image: url(./img/astronaut\ 1.png);
+    background-repeat: no-repeat;
 }
