@@ -59,8 +59,9 @@ margin: auto;
     background-color: #2F303A;
     padding-top: 200px;
     padding-bottom: 200px;
-     background-image: url(./img/back.png);
-
+ background-image: linear-gradient( rgba(0,0,0,0), #1e272e ), url(./img/back.png);
+ 
+    
 }
 
 .effectively-headline {
