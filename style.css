@@ -1,6 +1,17 @@
 
 .studio {
     color: #2196F3;
+    color: #212121;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+}
+
+.studio:hover {
+    color: #2196F3;
     font-family: Roboto;
     font-size: 14px;
     font-style: normal;
@@ -234,7 +245,7 @@ letter-spacing: 0.78px;
 }
 
 .roster-button1:hover {
-    box-shadow: 0 9px 7px -2px rgba(0, 0, 0, 0.3);
+   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.3);
     background-color: #2196F3;
     color: #FFF;
     text-align: center;
@@ -249,6 +260,10 @@ letter-spacing: 0.78px;
     padding-top: 6px;
     padding-bottom: 6px;
    
+}
+
+.roster-button2:hover {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.3);
 }
 
 .roster-button2 {
@@ -266,10 +281,6 @@ letter-spacing: 0.78px;
     padding-bottom: 6px;
     padding-top: 6px;
    
-}
-
-.roster-button2:hover {
-     box-shadow: 0 9px 7px -2px rgba(0, 0, 0, 0.3);
 }
 
 .head2-list {
@@ -520,43 +531,41 @@ margin-bottom: 50px;
 }
 
 .projects-li:nth-child(1):hover {
-    box-shadow: 0 9px 10px -2px rgba(0, 0, 0, 0.3);
-    
-
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
 }
   
 
 .projects-li:nth-child(2):hover {
-    box-shadow: 0 9px 10px -2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
     
 }
 
 .projects-li:nth-child(3):hover{
-    box-shadow: 0 9px 10px -2px rgba(0, 0, 0, 0.3);
+   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
 }
 
 .projects-li:nth-child(4):hover{
-    box-shadow: 0 9px 10px -2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
 }
 
 .projects-li:nth-child(5):hover{
-    box-shadow: 0 9px 10px -2px rgba(0, 0, 0, 0.3);
+   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
 }
 
 .projects-li:nth-child(6):hover{
-    box-shadow: 0 9px 10px -2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
 }
 
 .projects-li:nth-child(7):hover{
-    box-shadow: 0 9px 10px -2px rgba(0, 0, 0, 0.3);
+   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
 }
 
 .projects-li:nth-child(8):hover{
-    box-shadow: 0 9px 10px -2px rgba(0, 0, 0, 0.3);
+   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
 }
 
 .projects-li:nth-child(9):hover{
-    box-shadow: 0 9px 10px -2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
 }
 
 .projects-li {
@@ -575,19 +584,19 @@ margin-bottom: 50px;
 }
 
 .our-team-li:nth-child(1) {
-    box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
 }
 
 .our-team-li:nth-child(2) {
-    box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.3); box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
 }
 
 .our-team-li:nth-child(3) {
-    box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
 }
 
 .our-team-li:nth-child(4) {
-    box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
 }
 
 .our-team-img {
