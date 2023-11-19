@@ -80,9 +80,7 @@ margin: auto;
     background-color: #2F303A;
     padding-top: 200px;
     padding-bottom: 200px;
- background-image: linear-gradient( rgba(0,0,0,0.5), #2F303A66 ), url(./img/back.png);
- 
-    
+background-image: linear-gradient( rgba(47, 48, 58, 0.40), #2F303A66 ), url(./img/back.png);
 }
 
 .effectively-headline {
@@ -245,8 +243,11 @@ letter-spacing: 0.78px;
 }
 
 .roster-button1:hover {
-   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.3);
-    background-color: #2196F3;
+    border-radius: 4px;
+    background: #2196F3;
+    
+    /* shadow-middle */
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
     color: #FFF;
     text-align: center;
     font-family: Roboto;
@@ -263,7 +264,11 @@ letter-spacing: 0.78px;
 }
 
 .roster-button2:hover {
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+background: #2196F3;
+
+/* shadow-middle */
+box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
 
 .roster-button2 {
@@ -531,41 +536,59 @@ margin-bottom: 50px;
 }
 
 .projects-li:nth-child(1):hover {
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
+    border: 1px solid #EEE;
+background: #FFF;
+box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
   
 
 .projects-li:nth-child(2):hover {
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
+    border: 1px solid #EEE;
+    background: #FFF;
+    box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
     
 }
 
 .projects-li:nth-child(3):hover{
-   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
+    border: 1px solid #EEE;
+    background: #FFF;
+    box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
 
 .projects-li:nth-child(4):hover{
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
+    border: 1px solid #EEE;
+    background: #FFF;
+    box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
 
 .projects-li:nth-child(5):hover{
-   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
+    border: 1px solid #EEE;
+    background: #FFF;
+    box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
 
 .projects-li:nth-child(6):hover{
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
+    border: 1px solid #EEE;
+    background: #FFF;
+    box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
 
 .projects-li:nth-child(7):hover{
-   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
+    border: 1px solid #EEE;
+    background: #FFF;
+    box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
 
 .projects-li:nth-child(8):hover{
-   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
+    border: 1px solid #EEE;
+    background: #FFF;
+    box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
 
 .projects-li:nth-child(9):hover{
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
+    border: 1px solid #EEE;
+    background: #FFF;
+    box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
 
 .projects-li {
@@ -584,19 +607,31 @@ margin-bottom: 50px;
 }
 
 .our-team-li:nth-child(1) {
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 0px 0px 4px 4px;
+background: #FFF;
+/* material shadow v1 */
+box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
 
 .our-team-li:nth-child(2) {
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
+      border-radius: 0px 0px 4px 4px;
+background: #FFF;
+/* material shadow v1 */
+box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
 
 .our-team-li:nth-child(3) {
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
+     border-radius: 0px 0px 4px 4px;
+background: #FFF;
+/* material shadow v1 */
+box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
 
 .our-team-li:nth-child(4) {
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
+     border-radius: 0px 0px 4px 4px;
+background: #FFF;
+/* material shadow v1 */
+box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
 
 .our-team-img {
@@ -633,5 +668,4 @@ margin-bottom: 50px;
     background-image: url(./img/astronaut.png);
     background-repeat: no-repeat;
 }
-
 
