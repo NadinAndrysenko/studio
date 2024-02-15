@@ -18,6 +18,10 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
   <body>
     <header class="head">
@@ -62,35 +66,35 @@
           <h1 class="effectively-headline">
             Ефективні рішення для вашого бізнесу
           </h1>
-          <button type="button" class="effectively-button" data-modal-open>
-            Замовити послугу
-          </button>
+            <button type="button" class="effectively-button animate__heartBeat" data-modal-open>
+              Замовити послугу
+            </button>
         </div>
       </section>
       <section class="notes">
         <div class="container">
           <ul class="notes-ul">
-            <li class="notes-li">
+            <li class="notes-li" data-aos="fade-up">
               <h2 class="notes-title">УВАГА ДО ДЕТАЛЕЙ</h2>
               <p class="notes-text">
                 Ідейні міркування, і навіть початок повсякденної роботи з
                 формування позиції.
               </p>
             </li>
-            <li class="notes-li">
+            <li class="notes-li" data-aos="fade-up">
               <h2 class="notes-title">ПУНКТУАЛЬНІСТЬ</h2>
               <p class="notes-text">
                 Завдання організації, особливо рамки і місце навчання кадрів
                 тягне у себе.
               </p>
             </li>
-            <li class="notes-li">
+            <li class="notes-li" data-aos="fade-up">
               <h2 class="notes-title">ПЛАНУВАННЯ</h2>
               <p class="notes-text">
                 Так само консультація з широким активом значною мірою зумовлює.
               </p>
             </li>
-            <li class="notes-li">
+            <li class="notes-li" data-aos="fade-up">
               <h2 class="notes-title">СУЧАСНІ ТЕХНОЛОГІЇ</h2>
               <p class="notes-text">
                 Значимість цих проблем настільки очевидна, що реалізація
@@ -102,19 +106,19 @@
       </section>
       <section class="leisure">
         <div class="container">
-          <h2 class="leisure-title">Чим ми займаємося</h2>
+          <h2 class="leisure-title" data-aos="fade-up">Чим ми займаємося</h2>
           <ul class="leisure-ul">
-            <li class="leisure-li">
+            <li class="leisure-li" data-aos="fade-up">
               <img class="leisure-img" src="./img/picture1.png" alt="photo" />
               <h2 class="relative-box">Десктопні додатки</h2>
               <div class="overlay-background"></div>
             </li>
-            <li class="leisure-li">
+            <li class="leisure-li" data-aos="fade-up">
               <img class="leisure-img" src="./img/picture2.jpg" alt="photo" />
               <h2 class="relative-box">Мобільні додатки</h2>
               <div class="overlay-background"></div>
             </li>
-            <li class="leisure-li">
+            <li class="leisure-li" data-aos="fade-up">
               <img class="leisure-img" src="./img/picture3.jpg" alt="photo" />
               <h2 class="relative-box">Дизайнерські рішення</h2>
               <div class="overlay-background"></div>
@@ -124,9 +128,9 @@
       </section>
       <section class="our-team">
         <div class="container">
-          <h2 class="our-team-title">Наша команда</h2>
-          <ul class="our-team-ul">
-            <li class="our-team-li">
+          <h2 class="our-team-title" data-aos="fade-up">Наша команда</h2>
+          <ul class="our-team-ul" >
+            <li class="our-team-li"  data-aos="fade-up">
               <img class="our-team-img" src="./img/igor.jpg" alt="photo" />
               <p class="our-team-names">Ігор Дем'яненко</p>
               <p class="our-team-positions">Product Designer</p>
@@ -177,7 +181,7 @@
                 </li>
               </ul>
             </li>
-            <li class="our-team-li">
+            <li class="our-team-li"  data-aos="fade-up">
               <img class="our-team-img" src="./img/olga.jpg" alt="photo" />
               <p class="our-team-names">Ольга Рєпіна</p>
               <p class="our-team-positions">Frontend Developer</p>
@@ -228,7 +232,7 @@
                 </li>
               </ul>
             </li>
-            <li class="our-team-li">
+            <li class="our-team-li"  data-aos="fade-up">
               <img class="our-team-img" src="./img/Nicholas.jpg" alt="photo" />
               <p class="our-team-names">Микола Тарасов</p>
               <p class="our-team-positions">Marketing</p>
@@ -279,7 +283,7 @@
                 </li>
               </ul>
             </li>
-            <li class="our-team-li">
+            <li class="our-team-li"  data-aos="fade-up">
               <img class="our-team-img" src="./img/Mykhailo.jpg" alt="photo" />
               <p class="our-team-names">Михайло Єрмаков</p>
               <p class="our-team-positions">UI Designer</p>
@@ -335,8 +339,8 @@
       </section>
       <section class="regular-customers">
         <div class="container">
-          <h2 class="customers">Постійні клієнти</h2>
-          <ul class="customers-list">
+          <h2 class="customers"  data-aos="fade-up">Постійні клієнти</h2>
+          <ul class="customers-list"  data-aos="fade-up">
             <li class="first-customer">
               <svg class="first-logo">
                 <use class="ya-co" href="./img/icons.svg#icon-ya-co-logo"></use>
@@ -556,5 +560,9 @@
       </div>
     </div>
     <script src="./js/modal.js" type="module"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
