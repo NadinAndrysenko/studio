@@ -1,0 +1,233 @@
+
+.backdrop {
+    background-color: rgba(0, 0, 0, 0.20);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity  250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+.modal {
+    width: 528px;
+height: 581px;
+background-color: #FFF;
+
+}
+
+.modal-title {
+    color: #212121;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.6px;
+    margin-bottom: 12px;
+
+}
+
+.modal-list {
+    margin-left: 40px;
+    
+}
+
+.modal-item {
+    margin-bottom: 10px;
+}
+
+.modal-name {
+    color: #757575;
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.12px;
+display: block;
+margin-bottom: 4px;
+}
+
+.enter-text {
+    border-radius: 4px;
+border: 1px solid rgba(33, 33, 33, 0.20);
+color: rgba(117, 117, 117, 0.50);
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.12px;
+outline: none;
+width: 448px;
+height: 120px;
+padding-left: 16px;
+padding-top: 12px;
+resize: none;
+}
+
+.enter-text:hover {
+    border: 1px solid #2196F3;
+}
+
+.conditions-link {
+    color: #2196F3;
+    text-decoration: underline;
+    transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.conditions-link:hover {
+    color: #1978c5;
+}
+
+.conditions {
+    color: #757575;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 171.429% */
+letter-spacing: 0.42px;
+width: 448px;
+height: 120px;
+}
+
+.check {
+    margin-left: 54px;
+}
+
+.is-hidden {
+    /* display: none; */
+    opacity: 0;
+    pointer-events: none;
+}
+
+.modal-button {
+width: 200px;
+height: 50px;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-right: 52px;
+padding-left: 52px;
+margin-top: 30px;
+border-radius: 4px;
+margin-left: 165px;
+color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 16px;
+font-weight: 700;
+line-height: 30px; /* 187.5% */
+background: #188CE8;
+transition-property: background-color;
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.modal-button:hover {
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    background-color: #1978c5;
+    transition-property: background-color;
+    transition-duration: 250ms;
+}
+
+.modal-input {
+    border-radius: 4px;
+border: 1px solid rgba(33, 33, 33, 0.20);
+outline: none;
+width: 448px;
+height: 40px;
+padding-left: 30px;
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-input:hover {
+    border: 1px solid #2196F3;
+}
+
+.modal-input:focus {
+    border: 1px solid #2196F3;
+}
+
+.close {
+    width: 18px;
+height: 18px;
+fill: #000000;
+margin-left: 496px;
+margin-top: 14px;
+border: 1px solid rgba(0, 0, 0, 0.10);
+border-radius: 50%;
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.close:hover {
+    fill: #2196F3;
+}
+
+.modal-close {
+    background: none;
+}
+
+.send {
+    width: 24px;
+height: 24px;
+}
+
+
+.modal-person {
+    width: 18px;
+    height: 18px;
+    position: relative;
+    right: 440px;
+}
+
+.modal-phone {
+    width: 18px;
+height: 18px;
+position: relative;
+right: 440px;
+}
+
+.modal-email {
+    width: 18px;
+    height: 18px;
+    position: relative;
+    right: 440px;
+}
+
+.relative-box {
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+    position: relative;
+    bottom: 40px;
+    left: 5px;
+    z-index: 2;
+}
+
+.overlay-background {
+    background-color: rgba(47, 48, 58, 0.80);
+    width: 370px;
+    height: 70px;
+    position: relative;
+    bottom: 86px;
+   
+}

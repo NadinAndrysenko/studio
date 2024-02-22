@@ -1,0 +1,85 @@
+
+.foot {
+    background-color: #2F303A;
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+
+
+.foot-link {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+    letter-spacing: 0.42px;
+    margin-bottom: 9px;
+}
+
+.footer-link {
+    color: rgba(255, 255, 255, 0.60);
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+    letter-spacing: 0.42px;
+}
+
+
+.footer-icon {
+    display: flex;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    fill: #FFFFFF;
+}
+
+
+.icon-list {
+    display: flex;
+    margin-top: 32px;
+    margin-left: 330px;
+}
+
+.join {
+    color: #FFF;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.42px;
+text-transform: uppercase;
+margin-left: 330px;
+}
+
+.soc-medias {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.10);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-property: background-color;
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.soc-medias:hover {
+    background-color: #2196F3;
+
+}
+
+.icon-list {
+    gap: 10px;
+}
+
+.soc-icon {
+    width: 20px;
+height: 20px;
+}
+

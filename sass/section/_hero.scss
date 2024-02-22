@@ -1,0 +1,56 @@
+.effectively-button {
+    background-color: #2196F3;
+    color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px; /* 187.5% */
+letter-spacing: 0.96px;
+margin: auto;
+transition-property: background-color;
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.effectively-button:hover {
+    background-color: #1978c5;
+    transition-property: background-color;
+    transition-duration: 250ms;
+}
+
+.effectively {
+    background-color: #2F303A;
+    padding-top: 200px;
+    padding-bottom: 200px;
+background-image: linear-gradient( rgba(47, 48, 58, 0.40), rgba(47, 48, 58, 0.40)), url(./img/back.png);
+}
+
+.effectively-headline {
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 60px; /* 136.364% */
+    letter-spacing: 2.64px;
+    text-transform: uppercase;
+    width: 696px;
+    height: 120px;
+    margin: auto;
+
+    
+}
+
+
+.effectively-button {
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 32px;
+    padding-right: 32px;
+    display: flex;
+    justify-content: center;
+}
