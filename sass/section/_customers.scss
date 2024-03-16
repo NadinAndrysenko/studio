@@ -1,5 +1,9 @@
 
 .customers {
+    background-color: $primary-accent;
+}
+
+.customers__title {
     color: $text-color;
 text-align: center;
 font-family: Roboto;
@@ -10,17 +14,12 @@ line-height: normal;
 padding-top: 110px;
 }
 
-.regular__customers {
-    background-color: $primary-accent;
-}
-
 .customers__list {
     display: flex;
     justify-content: space-between;
     flex-wrap: nowrap;
     margin-top: 66px;
     padding-bottom: 110px;
-
 }
 
 .first__customer {

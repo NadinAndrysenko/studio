@@ -1,9 +1,8 @@
-.head {
+.header {
     padding-top:24px ;
     padding-bottom: 25px;
- }
- 
-.header__container {
+     
+&__container {
     width: 1200px ;
     margin-left: auto ;
     margin-right: auto ;
@@ -12,7 +11,7 @@
     align-items: center;
 }
  
- .head__title {
+&__logo {
     color: #000;
 font-family: Raleway;
 font-size: 26px;
@@ -22,7 +21,7 @@ line-height: normal;
 letter-spacing: 0.78px;
 }
 
- .header__title {
+&__title {
      color: $secondary-accent;
      font-family: Raleway;
      font-size: 26px;
@@ -31,42 +30,21 @@ letter-spacing: 0.78px;
      line-height: normal;
      letter-spacing: 0.78px;
  }
- 
- .header2__title {
-     color: $primary-accent;
- font-family: Raleway;
- font-size: 26px;
- font-style: normal;
- font-weight: 700;
- line-height: normal;
- letter-spacing: 0.78px;
- }
- 
-.head__ul {
+
+ &__list {
     display: flex;
     justify-content: center;
     gap: 50px;
     margin-right: auto;
     margin-left: 93px;
-
 }
 
-.header__ul {
+&__information {
     display: flex;
     justify-content: end;
     gap: 50px;
 }
-
-
-.header2__ul {
-    display: flex;
-    justify-content: end;
-    padding-top:24px ;
-    padding-bottom:25px ;
-    gap: 50px;
-}
-
-.header2__info {
+&__email {
     color: $secondary-color;
     font-family: Roboto;
     font-size: 14px;
@@ -76,9 +54,9 @@ letter-spacing: 0.78px;
     letter-spacing: 0.28px;
     transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.header2__info:hover {
+
+&:hover {
     color: $secondary-accent;
     font-family: Roboto;
     font-size: 14px;
@@ -88,16 +66,9 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     letter-spacing: 0.28px;
     transition-duration: 250ms;
 }
-
-.head2__ul {
-    display: flex;
-    justify-content: center;
-    gap: 50px;
-    margin-right: auto;
-    margin-left: 93px;
 }
 
-.header__studio {
+&__studio {
     color: $secondary-accent;
     color: $text-color;
     font-family: Roboto;
@@ -110,9 +81,9 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     position: relative;
     transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.header__studio:hover {
+
+&:hover {
     color: $secondary-accent;
     font-family: Roboto;
     font-size: 14px;
@@ -123,7 +94,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 250ms;
 }
 
-.header__studio::after {
+&::after {
     background-color: $secondary-accent;
     width: 100%;
     height: 4px;
@@ -136,16 +107,29 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     right: 0;
 }
 
-.header__studio2:hover::after {
-    opacity: 1;
-    
-}
-
-.header__studio:hover::after {
+&:hover::after {
     opacity: 1;
 }
+}
 
-.header__studio2::after {
+&__portfolio {
+    color: $text-color;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.28px;
+position: relative;
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+&:hover {
+    color: $secondary-accent;
+    transition-duration: 250ms;
+}
+
+&::after {
     background-color: $secondary-accent;
     width: 100%;
     height: 4px;
@@ -159,119 +143,39 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header__studio2 {
-    color: $text-color;
-font-family: Roboto;
-font-size: 14px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-letter-spacing: 0.28px;
-position: relative;
-transition-duration: 250ms;
-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.header__studio2:hover {
-    color: $secondary-accent;
-    transition-duration: 250ms;
-}
-
-.heading__title {
-    color: $secondary-accent;
-font-family: Raleway;
-font-size: 26px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-letter-spacing: 0.78px; 
-}
-
-.heading__title2 {
-    color: $primary-accent;
-    font-family: Raleway;
-    font-size: 26px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 0.78px;  
-}
-
-.head2__info {
-    color: $secondary-color;
-    font-family: Roboto;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    letter-spacing: 0.28px;
-}
-
-.head2__list {
-    color: $text-color;
-    font-family: Roboto;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    letter-spacing: 0.28px;
-    position: relative;
-    transition-duration: 250ms;
-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.head2__list::after {
-    background-color: $secondary-accent;
-    width: 100%;
-    height: 4px;
-    content: "";
-    display: block;
-    opacity: 0;
-    position: absolute;
-    bottom: -28px;
-    right: 0;
-    transition-duration: 250ms;
-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.head2__list:hover::after {
+&:hover::after {
     opacity: 1;
+    
+}
 }
 
-.head2 {
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
-    border-bottom-color: #ECECEC;
-}
-
-.header__envelope {
+&__envelope {
     width: 16px;
     height: 12px;
     fill: $secondary-color;
     margin-right: 10px;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        
+    &:hover {
+        fill: $secondary-accent;
+        }
     }
     
-    .header__envelope:hover {
-    fill: $secondary-accent;
-    }
-    
-    .header__smartphone {
+    &__smartphone {
         width: 10px;
     height: 16px;
     fill: $secondary-color;
     margin-right: 10px;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    }
-    
-    .header__smartphone:hover {
+        
+    &:hover {
         fill: $secondary-accent;
     }
-    
-    
-.header__number {
+    }
+
+    &__number {
     color: $secondary-color;
     font-family: Roboto;
     font-size: 14px;
@@ -281,9 +185,8 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     letter-spacing: 0.28px;
     transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.header__number:hover {
+&:hover {
     color: $secondary-accent;
     font-family: Roboto;
     font-size: 14px;
@@ -292,18 +195,5 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     line-height: normal;
     letter-spacing: 0.28px;
 }
- 
-.head2__lists {
-    color: $secondary-accent;
-    font-family: Roboto;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    letter-spacing: 0.28px;
 }
-
-
-.bg {
-    background-color: #2F303A;
-}
+ }

@@ -1,5 +1,11 @@
 
-.our-team-title {
+.our__team {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    background-color: #F5F4FA;
+
+    
+&_title {
     color: $text-color;
     text-align: center;
     font-family: Roboto;
@@ -13,98 +19,91 @@ justify-content: center;
 margin-bottom: 50px;
 }
 
-.our-team {
-    padding-top: 94px;
-    padding-bottom: 94px;
-    background-color: #F5F4FA;
-}
-
-.our-team-names {
+&__names {
     @extend %team-names
 }
 
-
-.our-team-ul {
+&__list {
     display: flex;
     gap: 30px;
 }
 
-.our-team-li:nth-child(1) {
+&__item:nth-child(1) {
     border-radius: 0px 0px 4px 4px;
 background: #FFF;
 /* material shadow v1 */
 box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
 
-.our-team-li:nth-child(2) {
+&__item:nth-child(2) {
       border-radius: 0px 0px 4px 4px;
 background: #FFF;
 /* material shadow v1 */
 box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
 
-.our-team-li:nth-child(3) {
+&__item:nth-child(3) {
      border-radius: 0px 0px 4px 4px;
 background: #FFF;
 /* material shadow v1 */
 box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
 
-.our-team-li:nth-child(4) {
+&__item:nth-child(4) {
      border-radius: 0px 0px 4px 4px;
 background: #FFF;
 /* material shadow v1 */
 box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
 
-
-.our-team-img {
+&__img {
     width: 260px;
     height: 270px;
 }
 
-.svg-list {
+&__svg {
     display: flex;
 gap: 10px;
 padding-left: 32px;
 padding-bottom: 30px;
 }
 
-
-.social-link {
+&__link {
     fill: #AFB1B8;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
     height: 100%;
-}
-
-.social-link:hover {
+    
+&:hover {
     fill: #FFFFFF;
     transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+}
 
 
-.soc-list {
+&__apps {
     width: 44px;
     height: 44px;
     border-radius: 50%;
     transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.soc-list:hover {
+&:hover {
     background-color: $secondary-accent;
 
 }
+}
 
 
-.our-team-positions {
+&__positions {
     @extend %team-positions
 }
 
-.team2 {
-    background-color: #F5F4FA;
+&__icons {
+    width: 25px;
+    height: 25px;
+}
 }

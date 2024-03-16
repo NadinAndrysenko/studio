@@ -1,12 +1,30 @@
 
-.foot {
+.footer {
     background-color: #2F303A;
     padding-bottom: 60px;
     padding-top: 60px;
+    
+&__title {
+    color: $secondary-accent;
+font-family: Raleway;
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.78px; 
 }
 
+&__logo {
+    color: $primary-accent;
+    font-family: Raleway;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;  
+}
 
-.foot__link {
+&__addres {
     color: $primary-accent;
     font-family: Roboto;
     font-size: 14px;
@@ -17,7 +35,7 @@
     margin-bottom: 9px;
 }
 
-.footer__link {
+&__link {
     color: rgba(255, 255, 255, 0.60);
     font-family: Roboto;
     font-size: 14px;
@@ -28,7 +46,7 @@
 }
 
 
-.footer__icon {
+&__image {
     display: flex;
     display: inline-block;
     width: 20px;
@@ -38,13 +56,14 @@
 }
 
 
-.icon__list {
+&__list {
     display: flex;
     margin-top: 32px;
     margin-left: 330px;
+    gap: 10px;
 }
 
-.join {
+&__join {
     color: $primary-accent;
 font-family: Roboto;
 font-size: 14px;
@@ -56,7 +75,7 @@ text-transform: uppercase;
 margin-left: 330px;
 }
 
-.soc__medias {
+&__items {
     width: 44px;
     height: 44px;
     border-radius: 50%;
@@ -67,19 +86,10 @@ margin-left: 330px;
     transition-property: background-color;
 transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.soc__medias:hover {
+&items:hover {
     background-color: $secondary-accent;
 
 }
-
-.icon__list {
-    gap: 10px;
 }
-
-.soc__icon {
-    width: 20px;
-height: 20px;
 }
-

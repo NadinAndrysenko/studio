@@ -2,23 +2,24 @@
 .leisure {
     padding-top: 94px;
     
+    &__title {
+        color: $text-color;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 1.08px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+    
+    &__list {
+        display: flex;
+        gap: 30px;
+    }
+    
 }
 
-.leisure-title {
-    color: $text-color;
-    text-align: center;
-    font-family: Roboto;
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 1.08px;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 50px;
-}
-
-.leisure-ul {
-    display: flex;
-    gap: 30px;
-}
