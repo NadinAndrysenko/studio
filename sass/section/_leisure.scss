@@ -1,6 +1,11 @@
 
+.leisure {
+    padding-top: 94px;
+    
+}
+
 .leisure-title {
-    color: #212121;
+    color: $text-color;
     text-align: center;
     font-family: Roboto;
     font-size: 36px;
@@ -13,17 +18,7 @@
     margin-bottom: 50px;
 }
 
-.leisure {
-    padding-top: 94px;
-}
-
-
 .leisure-ul {
     display: flex;
     gap: 30px;
 }
-
-.leisure {
-    padding-bottom: 94px;
-}
-

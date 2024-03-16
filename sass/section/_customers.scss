@@ -1,6 +1,6 @@
 
 .customers {
-    color: #212121;
+    color: $text-color;
 text-align: center;
 font-family: Roboto;
 font-size: 36px;
@@ -10,11 +10,11 @@ line-height: normal;
 padding-top: 110px;
 }
 
-.regular-customers {
-    background-color: #FFF;
+.regular__customers {
+    background-color: $primary-accent;
 }
 
-.customers-list {
+.customers__list {
     display: flex;
     justify-content: space-between;
     flex-wrap: nowrap;
@@ -23,7 +23,7 @@ padding-top: 110px;
 
 }
 
-.first-customer {
+.first__customer {
     width: 106px;
     height: 60px;
     fill: #AFB1B8;
@@ -33,11 +33,11 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .ya-co:hover{
-    fill: #2196F3;
+    fill: $secondary-accent;
     transition-duration: 250ms;
 }
 
-.first-logo {
+.first__logo {
     width: 170px;
     height: 92px;
     border-radius: 4px;
@@ -46,12 +46,12 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.first-logo:hover {
-    border: 1px solid #2196F3;
+.first__logo:hover {
+    border: 1px solid $secondary-accent;
     transition-duration: 250ms;
 }
 
-.second-customer {
+.second__customer {
     width: 106px;
     height: 60px;
     fill: #AFB1B8;
@@ -60,7 +60,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.second-logo {
+.second__logo {
     width: 170px;
     height: 92px;
     border-radius: 4px;
@@ -69,17 +69,17 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.second-logo:hover {
-    border: 1px solid #2196F3;
+.second__logo:hover {
+    border: 1px solid $secondary-accent;
     transition-duration: 250ms;
 }
 
-.first-company:hover {
-    fill: #2196F3;
+.first__company:hover {
+    fill: $secondary-accent;
     transition-duration: 250ms;
 }
 
-.third-logo {
+.third__logo {
     width: 170px;
     height: 92px;
     border-radius: 4px;
@@ -88,12 +88,12 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.third-logo:hover {
-    border: 1px solid #2196F3;
+.third__logo:hover {
+    border: 1px solid $secondary-accent;
     transition-duration: 250ms;
 }
 
-.third-customer {
+.third__customer {
     width: 106px;
     height: 60px;
     fill: #AFB1B8;
@@ -102,12 +102,12 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.third-company:hover {
-    fill: #2196F3;
+.third__company:hover {
+    fill: $secondary-accent;
     transition-duration: 250ms;
 }
 
-.fourth-customer {
+.fourth__customer {
     width: 106px;
     height: 60px;
     fill: #AFB1B8;
@@ -116,12 +116,12 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.poster-peters:hover {
-    fill: #2196F3;
+.poster__peters:hover {
+    fill: $secondary-accent;
     transition-duration: 250ms;
 }
 
-.fourth-logo {
+.fourth__logo {
     width: 170px;
     height: 92px;
     border-radius: 4px;
@@ -130,19 +130,19 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.fourth-logo:hover {
-    border: 1px solid #2196F3;
+.fourth__logo:hover {
+    border: 1px solid $secondary-accent;
     transition-duration: 250ms;
 }
 
-.fifth-customer {
+.fifth__customer {
     width: 106px;
     height: 60px;
     fill: #AFB1B8;
     margin-right: 30px;
 }
 
-.fifth-logo {
+.fifth__logo {
     width: 106px;
     height: 60px;
     fill: #AFB1B8;
@@ -151,7 +151,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.fifth-logo {
+.fifth__logo {
     width: 170px;
     height: 92px;
     border-radius: 4px;
@@ -160,17 +160,17 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.fifth-logo:hover {
-    border: 1px solid #2196F3;
+.fifth__logo:hover {
+    border: 1px solid $secondary-accent;
     transition-duration: 250ms;
 }
 
-.fifth-logo:hover {
-    fill: #2196F3;
+.fifth__logo:hover {
+    fill: $secondary-accent;
     transition-duration: 250ms;
 }
 
-.sixth-logo {
+.sixth__logo {
     width: 170px;
     height: 92px;
     border-radius: 4px;
@@ -179,7 +179,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.sixth-customer {
+.sixth__customer {
     width: 106px;
     height: 60px;
     fill: #AFB1B8;
@@ -187,12 +187,12 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.sixth-logo:hover {
-    border: 1px solid #2196F3;
+.sixth__logo:hover {
+    border: 1px solid $secondary-accent;
     transition-duration: 250ms;
 }
 
-.sixth-logo:hover {
-    fill: #2196F3;
+.sixth__logo:hover {
+    fill: $secondary-accent;
     transition-duration: 250ms;
 }

@@ -6,8 +6,8 @@
 }
 
 
-.foot-link {
-    color: #FFF;
+.foot__link {
+    color: $primary-accent;
     font-family: Roboto;
     font-size: 14px;
     font-style: normal;
@@ -17,7 +17,7 @@
     margin-bottom: 9px;
 }
 
-.footer-link {
+.footer__link {
     color: rgba(255, 255, 255, 0.60);
     font-family: Roboto;
     font-size: 14px;
@@ -28,7 +28,7 @@
 }
 
 
-.footer-icon {
+.footer__icon {
     display: flex;
     display: inline-block;
     width: 20px;
@@ -38,14 +38,14 @@
 }
 
 
-.icon-list {
+.icon__list {
     display: flex;
     margin-top: 32px;
     margin-left: 330px;
 }
 
 .join {
-    color: #FFF;
+    color: $primary-accent;
 font-family: Roboto;
 font-size: 14px;
 font-style: normal;
@@ -56,7 +56,7 @@ text-transform: uppercase;
 margin-left: 330px;
 }
 
-.soc-medias {
+.soc__medias {
     width: 44px;
     height: 44px;
     border-radius: 50%;
@@ -69,16 +69,16 @@ transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.soc-medias:hover {
-    background-color: #2196F3;
+.soc__medias:hover {
+    background-color: $secondary-accent;
 
 }
 
-.icon-list {
+.icon__list {
     gap: 10px;
 }
 
-.soc-icon {
+.soc__icon {
     width: 20px;
 height: 20px;
 }

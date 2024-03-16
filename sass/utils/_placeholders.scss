@@ -1,0 +1,139 @@
+%button-styles {
+    background-color: $secondary-accent;
+    color: $primary-accent;
+text-align: center;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px; /* 187.5% */
+letter-spacing: 0.96px;
+transition-property: background-color;
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 32px;
+padding-right: 32px;
+
+&:hover {
+    background-color: #1978c5;
+    transition-property: background-color;
+    transition-duration: 250ms;
+}
+}
+
+%button-list {
+    
+    background-color: #F5F4FA;
+    color: $text-color;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; /* 162.5% */
+    letter-spacing: 0.48px;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    
+&:hover {
+    border-radius: 4px;
+    background: $secondary-accent;
+    
+    /* shadow-middle */
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+    color: $primary-accent;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; /* 162.5% */
+    letter-spacing: 0.48px;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    transition-property: background-color;
+    transition-duration: 250ms;
+}
+   
+}
+
+%card-name {
+    color: $text-color;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px; /* 200% */
+    letter-spacing: 1.08px;
+    margin-bottom: 4px;
+    padding-left: 24px;
+    padding-top: 20px;
+
+}
+
+%project-titels {
+    color: $secondary-color;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 187.5% */
+    letter-spacing: 0.48px;
+    padding-left: 24px;
+}
+
+%note-titels {
+    color: $text-color;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+%note-text {
+    color: $secondary-color;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+    letter-spacing: 0.42px;
+}
+
+%team-names {
+    color: $text-color;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.48px;
+    padding-top:30px ;
+    margin-bottom:10px ;
+}
+
+%team-positions {
+    color: $secondary-color;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.48px;
+    padding-bottom: 30px;
+}

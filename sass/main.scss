@@ -1,5 +1,8 @@
 @import "./base/container.scss";
 @import "./base/reset.scss";
+@import "./utils/vars";
+@import "./utils/placeholders";
+
 @import "./section/header";
 @import "./section/hero";
 @import "./section/notes";
@@ -9,5 +12,6 @@
 @import "./section/footer";
 @import "./section/buttons-list";
 @import "./section/projects";
+
 @import "./section/modal";
 @import "./section/newsletter";

@@ -17,12 +17,12 @@
 .modal {
     width: 528px;
 height: 581px;
-background-color: #FFF;
+background-color: $primary-accent;
 
 }
 
-.modal-title {
-    color: #212121;
+.modal__title {
+    color: $text-color;
     text-align: center;
     font-family: Roboto;
     font-size: 20px;
@@ -34,17 +34,17 @@ background-color: #FFF;
 
 }
 
-.modal-list {
+.modal__list {
     margin-left: 40px;
     
 }
 
-.modal-item {
+.modal__item {
     margin-bottom: 10px;
 }
 
-.modal-name {
-    color: #757575;
+.modal__name {
+    color: $secondary-color;
 font-family: Roboto;
 font-size: 12px;
 font-style: normal;
@@ -55,7 +55,7 @@ display: block;
 margin-bottom: 4px;
 }
 
-.enter-text {
+.enter__text {
     border-radius: 4px;
 border: 1px solid rgba(33, 33, 33, 0.20);
 color: rgba(117, 117, 117, 0.50);
@@ -73,24 +73,24 @@ padding-top: 12px;
 resize: none;
 }
 
-.enter-text:hover {
-    border: 1px solid #2196F3;
+.enter__text:hover {
+    border: 1px solid $secondary-accent;
 }
 
-.conditions-link {
-    color: #2196F3;
+.conditions__link {
+    color: $secondary-accent;
     text-decoration: underline;
     transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
-.conditions-link:hover {
+.conditions__link:hover {
     color: #1978c5;
 }
 
 .conditions {
-    color: #757575;
+    color: $secondary-color;
 font-family: Roboto;
 font-size: 14px;
 font-style: normal;
@@ -111,37 +111,13 @@ height: 120px;
     pointer-events: none;
 }
 
-.modal-button {
-width: 200px;
-height: 50px;
-padding-top: 10px;
-padding-bottom: 10px;
-padding-right: 52px;
-padding-left: 52px;
+.modal__button {
 margin-top: 30px;
-border-radius: 4px;
 margin-left: 165px;
-color: #FFF;
-text-align: center;
-font-family: Roboto;
-font-size: 16px;
-font-weight: 700;
-line-height: 30px; /* 187.5% */
-background: #188CE8;
-transition-property: background-color;
-transition-duration: 250ms;
-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
+@extend %button-styles
 }
 
-.modal-button:hover {
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-    background-color: #1978c5;
-    transition-property: background-color;
-    transition-duration: 250ms;
-}
-
-.modal-input {
+.modal__input {
     border-radius: 4px;
 border: 1px solid rgba(33, 33, 33, 0.20);
 outline: none;
@@ -152,12 +128,12 @@ transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-input:hover {
-    border: 1px solid #2196F3;
+.modal__input:hover {
+    border: 1px solid $secondary-accent;
 }
 
-.modal-input:focus {
-    border: 1px solid #2196F3;
+.modal__input:focus {
+    border: 1px solid $secondary-accent;
 }
 
 .close {
@@ -173,10 +149,10 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .close:hover {
-    fill: #2196F3;
+    fill: $secondary-accent;
 }
 
-.modal-close {
+.modal__close {
     background: none;
 }
 
@@ -186,29 +162,29 @@ height: 24px;
 }
 
 
-.modal-person {
+.modal__person {
     width: 18px;
     height: 18px;
     position: relative;
     right: 440px;
 }
 
-.modal-phone {
+.modal__phone {
     width: 18px;
 height: 18px;
 position: relative;
 right: 440px;
 }
 
-.modal-email {
+.modal__email {
     width: 18px;
     height: 18px;
     position: relative;
     right: 440px;
 }
 
-.relative-box {
-    color: #FFF;
+.relative__box {
+    color: $primary-accent;
     text-align: center;
     font-family: Roboto;
     font-size: 14px;
@@ -223,7 +199,7 @@ right: 440px;
     z-index: 2;
 }
 
-.overlay-background {
+.overlay__background {
     background-color: rgba(47, 48, 58, 0.80);
     width: 370px;
     height: 70px;

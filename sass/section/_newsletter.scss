@@ -1,32 +1,15 @@
 
-.newsletter-btn {
-    background-color: #2196F3;
-    color: #FFF;
-text-align: center;
-font-family: Roboto;
-font-size: 16px;
-font-style: normal;
-font-weight: 700;
-line-height: 30px; /* 187.5% */
-letter-spacing: 0.96px;
-border-radius: 4px;
-padding-top: 10px;
-padding-bottom: 10px;
-padding-left: 28px;
-padding-right: 28px;
+.newsletter__btn {
 margin-right: 10px;
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-transition-property: background-color;
-transition-duration: 250ms;
-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+@extend %button-styles
 }
 
-.newsletter-btn:hover {
+.newsletter__btn:hover {
     background-color: #1978c5;
 }
 
-.newsletter-title {
-    color: #FFF;
+.newsletter__title {
+    color: $primary-accent;
 font-family: Roboto;
 font-size: 14px;
 font-style: normal;
@@ -36,11 +19,11 @@ letter-spacing: 0.42px;
 text-transform: uppercase;
 }
 
-.newsletter-box{
+.newsletter__box{
     margin-left: 571px;
 }
 
-.newsletter-email {
+.newsletter__email {
     border-radius: 4px;
 border: 1px solid rgba(255, 255, 255, 0.30);
 background: rgba(33, 150, 243, 0.00);
