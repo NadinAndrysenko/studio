@@ -13,22 +13,12 @@
  
 &__logo {
     color: #000;
-font-family: Raleway;
-font-size: 26px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-letter-spacing: 0.78px;
+    @mixin logo-styles;
 }
 
 &__title {
      color: $secondary-accent;
-     font-family: Raleway;
-     font-size: 26px;
-     font-style: normal;
-     font-weight: 700;
-     line-height: normal;
-     letter-spacing: 0.78px;
+     @mixin logo-styles;
  }
 
  &__list {
@@ -44,6 +34,7 @@ letter-spacing: 0.78px;
     justify-content: end;
     gap: 50px;
 }
+
 &__email {
     color: $secondary-color;
     font-family: Roboto;

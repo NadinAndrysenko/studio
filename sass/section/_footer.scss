@@ -6,22 +6,12 @@
     
 &__title {
     color: $secondary-accent;
-font-family: Raleway;
-font-size: 26px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-letter-spacing: 0.78px; 
+    @mixin logo-styles;
 }
 
 &__logo {
     color: $primary-accent;
-    font-family: Raleway;
-    font-size: 26px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 0.78px;  
+    @mixin logo-styles; 
 }
 
 &__addres {
