@@ -4,25 +4,41 @@
     padding-bottom: 60px;
     padding-top: 60px;
     
+&__container {
+    display: flex;
+    gap: 70px;
+}
+
+&__wrapper {
+    margin-top: 12px;
+}
+
 &__title {
     color: $secondary-accent;
-    @mixin logo-styles;
+    @include logo-styles();
+    margin-bottom: 20px;
+    display: block;
 }
 
 &__logo {
     color: $primary-accent;
-    @mixin logo-styles; 
+    @include logo-styles(); 
+
 }
 
-&__addres {
-    color: $primary-accent;
-    font-family: Roboto;
-    font-size: 14px;
-    font-style: normal;
+&__navs {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+&__adress {
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
-    line-height: 24px; /* 171.429% */
-    letter-spacing: 0.42px;
-    margin-bottom: 9px;
+    font-size: 14px;
+    line-height: 1.71429;
+    letter-spacing: 0.03em;
+    color: $primary-accent;
 }
 
 &__link {
@@ -37,7 +53,6 @@
 
 
 &__image {
-    display: flex;
     display: inline-block;
     width: 20px;
     height: 20px;
@@ -48,8 +63,7 @@
 
 &__list {
     display: flex;
-    margin-top: 32px;
-    margin-left: 330px;
+    margin-top: 12px;
     gap: 10px;
 }
 
@@ -62,7 +76,6 @@ font-weight: 700;
 line-height: normal;
 letter-spacing: 0.42px;
 text-transform: uppercase;
-margin-left: 330px;
 }
 
 &__items {

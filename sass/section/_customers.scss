@@ -1,191 +1,51 @@
-
 .customer {
     background-color: $primary-accent;
 
-    
-&__title {
-    color: $text-color;
-text-align: center;
-font-family: Roboto;
-font-size: 36px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-padding-top: 110px;
-}
 
-&__list {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: nowrap;
-    margin-top: 66px;
-    padding-bottom: 110px;
-}
-
-&__one {
-    width: 106px;
-    height: 60px;
-    fill: #AFB1B8;
-    margin-right: 30px;
-    transition-duration: 250ms;
-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-&__first__logo {
-    width: 170px;
-    height: 92px;
-    border-radius: 4px;
-    border: 1px solid #AFB1B8;
-    transition-duration: 250ms;
-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
-&first__logo:hover {
-    border: 1px solid $secondary-accent;
-    transition-duration: 250ms;
-}
-
-&first__logo:hover {
-    fill: $secondary-accent;
-    transition-duration: 250ms;
-}
-}
-
-&__two {
-    width: 106px;
-    height: 60px;
-    fill: #AFB1B8;
-    margin-right: 30px;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-&__second__logo {
-    width: 170px;
-    height: 92px;
-    border-radius: 4px;
-    border: 1px solid #AFB1B8;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
-    &second__logo:hover {
-        border: 1px solid $secondary-accent;
-        transition-duration: 250ms;
+    &__title {
+        color: $text-color;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        padding-top: 110px;
     }
-    
-    &second__logo:hover {
-        fill: $secondary-accent;
-        transition-duration: 250ms;
+
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        margin-top: 66px;
+        padding-bottom: 110px;
     }
-}
 
-&__three {
-    width: 106px;
-    height: 60px;
-    fill: #AFB1B8;
-    margin-right: 30px;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+    &__item {
+        width: 106px;
+        height: 60px;
+        fill: #AFB1B8;
+        margin-right: 30px;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
 
-&__third__logo {
-    width: 170px;
-    height: 92px;
-    border-radius: 4px;
-    border: 1px solid #AFB1B8;
-    transition-duration: 250ms;
-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    &__logo {
+        width: 170px;
+        height: 92px;
+        border-radius: 4px;
+        border: 1px solid #AFB1B8;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-&third__logo:hover {
-    border: 1px solid $secondary-accent;
-    transition-duration: 250ms;
-}
+        &logo:hover {
+            border: 1px solid $secondary-accent;
+            transition-duration: 250ms;
+        }
 
-&third__logo:hover {
-    fill: $secondary-accent;
-    transition-duration: 250ms;
-}
-
-}
-
-&__four {
-    width: 106px;
-    height: 60px;
-    fill: #AFB1B8;
-    margin-right: 30px;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-&__fourth__logo {
-    width: 170px;
-    height: 92px;
-    border-radius: 4px;
-    border: 1px solid #AFB1B8;
-    transition-duration: 250ms;
-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
-&fourth__logo:hover {
-    border: 1px solid $secondary-accent;
-    transition-duration: 250ms;
-}
-
-&fourth__logo:hover {
-    fill: $secondary-accent;
-    transition-duration: 250ms;
-}
-}
-
-&__five {
-    width: 106px;
-    height: 60px;
-    fill: #AFB1B8;
-    margin-right: 30px; }
-
-    &__fifth__logo {
-    width: 170px;
-    height: 92px;
-    border-radius: 4px;
-    border: 1px solid #AFB1B8;
-    transition-duration: 250ms;
-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
-&fifth__logo:hover {
-    border: 1px solid $secondary-accent;
-    transition-duration: 250ms;
-}
-
-&fifth__logo:hover {
-    fill: $secondary-accent;
-    transition-duration: 250ms;
-}
-}
-
-
-&__six {
-    width: 106px;
-    height: 60px;
-    fill: #AFB1B8;
-    transition-duration: 250ms;
-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-&__sixth__logo {
-    width: 170px;
-    height: 92px;
-    border-radius: 4px;
-    border: 1px solid #AFB1B8;
-    transition-duration: 250ms;
-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
-&sixth__logo:hover {
-    border: 1px solid $secondary-accent;
-    transition-duration: 250ms;
-}
-
-&sixth__logo:hover {
-    fill: $secondary-accent;
-    transition-duration: 250ms;
-}
-
-}
+        &logo:hover {
+            fill: $secondary-accent;
+            transition-duration: 250ms;
+        }
+    }
 }
