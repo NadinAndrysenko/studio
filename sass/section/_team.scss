@@ -5,7 +5,7 @@
     background-color: #F5F4FA;
 
     
-&_title {
+&__title {
     color: $text-color;
     text-align: center;
     font-family: Roboto;
@@ -14,9 +14,9 @@
     font-weight: 700;
     line-height: normal;
     letter-spacing: 1.08px;
+    margin-bottom: 50px;
     display: flex;
-justify-content: center;
-margin-bottom: 50px;
+    justify-content: center;
 }
 
 &__names {

@@ -1,4 +1,9 @@
 
+.projects {
+    padding-bottom: 94px;
+    padding-top: 56px;
+}
+
 .project__overlay {
     position: absolute;
     width: 370px;
@@ -359,20 +364,8 @@ opacity: 0;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.projects {
-    padding-bottom: 94px;
-}
-
-
-
 .projects__name {
     @extend %card-name
-}
-
-
-.projects {
-    padding-bottom: 94px;
-    padding-top: 56px;
 }
 
 .projects__titels {

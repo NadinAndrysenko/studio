@@ -390,7 +390,7 @@ img {
   padding-bottom: 94px;
   background-color: #F5F4FA;
 }
-.our__team_title {
+.our__team__title {
   color: #212121;
   text-align: center;
   font-family: Roboto;
@@ -399,9 +399,9 @@ img {
   font-weight: 700;
   line-height: normal;
   letter-spacing: 1.08px;
+  margin-bottom: 50px;
   display: flex;
   justify-content: center;
-  margin-bottom: 50px;
 }
 .our__team__list {
   display: flex;
@@ -469,11 +469,10 @@ img {
   height: 25px;
 }
 
-.customers {
+.customer {
   background-color: #FFF;
 }
-
-.customers__title {
+.customer__title {
   color: #212121;
   text-align: center;
   font-family: Roboto;
@@ -483,16 +482,14 @@ img {
   line-height: normal;
   padding-top: 110px;
 }
-
-.customers__list {
+.customer__list {
   display: flex;
   justify-content: space-between;
   flex-wrap: nowrap;
   margin-top: 66px;
   padding-bottom: 110px;
 }
-
-.first__customer {
+.customer__one {
   width: 106px;
   height: 60px;
   fill: #AFB1B8;
@@ -500,27 +497,23 @@ img {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.ya-co:hover {
+.customer__first__logo {
+  width: 170px;
+  height: 92px;
+  border-radius: 4px;
+  border: 1px solid #AFB1B8;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.customer__first__logofirst__logo:hover {
+  border: 1px solid #2196F3;
+  transition-duration: 250ms;
+}
+.customer__first__logofirst__logo:hover {
   fill: #2196F3;
   transition-duration: 250ms;
 }
-
-.first__logo {
-  width: 170px;
-  height: 92px;
-  border-radius: 4px;
-  border: 1px solid #AFB1B8;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.first__logo:hover {
-  border: 1px solid #2196F3;
-  transition-duration: 250ms;
-}
-
-.second__customer {
+.customer__two {
   width: 106px;
   height: 60px;
   fill: #AFB1B8;
@@ -528,8 +521,7 @@ img {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.second__logo {
+.customer__second__logo {
   width: 170px;
   height: 92px;
   border-radius: 4px;
@@ -537,32 +529,15 @@ img {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.second__logo:hover {
+.customer__second__logosecond__logo:hover {
   border: 1px solid #2196F3;
   transition-duration: 250ms;
 }
-
-.first__company:hover {
+.customer__second__logosecond__logo:hover {
   fill: #2196F3;
   transition-duration: 250ms;
 }
-
-.third__logo {
-  width: 170px;
-  height: 92px;
-  border-radius: 4px;
-  border: 1px solid #AFB1B8;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.third__logo:hover {
-  border: 1px solid #2196F3;
-  transition-duration: 250ms;
-}
-
-.third__customer {
+.customer__three {
   width: 106px;
   height: 60px;
   fill: #AFB1B8;
@@ -570,13 +545,23 @@ img {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.third__company:hover {
+.customer__third__logo {
+  width: 170px;
+  height: 92px;
+  border-radius: 4px;
+  border: 1px solid #AFB1B8;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.customer__third__logothird__logo:hover {
+  border: 1px solid #2196F3;
+  transition-duration: 250ms;
+}
+.customer__third__logothird__logo:hover {
   fill: #2196F3;
   transition-duration: 250ms;
 }
-
-.fourth__customer {
+.customer__four {
   width: 106px;
   height: 60px;
   fill: #AFB1B8;
@@ -584,13 +569,29 @@ img {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.poster__peters:hover {
+.customer__fourth__logo {
+  width: 170px;
+  height: 92px;
+  border-radius: 4px;
+  border: 1px solid #AFB1B8;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.customer__fourth__logofourth__logo:hover {
+  border: 1px solid #2196F3;
+  transition-duration: 250ms;
+}
+.customer__fourth__logofourth__logo:hover {
   fill: #2196F3;
   transition-duration: 250ms;
 }
-
-.fourth__logo {
+.customer__five {
+  width: 106px;
+  height: 60px;
+  fill: #AFB1B8;
+  margin-right: 30px;
+}
+.customer__fifth__logo {
   width: 170px;
   height: 92px;
   border-radius: 4px;
@@ -598,48 +599,22 @@ img {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.fourth__logo:hover {
+.customer__fifth__logofifth__logo:hover {
   border: 1px solid #2196F3;
   transition-duration: 250ms;
 }
-
-.fifth__customer {
-  width: 106px;
-  height: 60px;
-  fill: #AFB1B8;
-  margin-right: 30px;
-}
-
-.fifth__logo {
-  width: 106px;
-  height: 60px;
-  fill: #AFB1B8;
-  margin-right: 30px;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.fifth__logo {
-  width: 170px;
-  height: 92px;
-  border-radius: 4px;
-  border: 1px solid #AFB1B8;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.fifth__logo:hover {
-  border: 1px solid #2196F3;
-  transition-duration: 250ms;
-}
-
-.fifth__logo:hover {
+.customer__fifth__logofifth__logo:hover {
   fill: #2196F3;
   transition-duration: 250ms;
 }
-
-.sixth__logo {
+.customer__six {
+  width: 106px;
+  height: 60px;
+  fill: #AFB1B8;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.customer__sixth__logo {
   width: 170px;
   height: 92px;
   border-radius: 4px;
@@ -647,21 +622,11 @@ img {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.sixth__customer {
-  width: 106px;
-  height: 60px;
-  fill: #AFB1B8;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.sixth__logo:hover {
+.customer__sixth__logosixth__logo:hover {
   border: 1px solid #2196F3;
   transition-duration: 250ms;
 }
-
-.sixth__logo:hover {
+.customer__sixth__logosixth__logo:hover {
   fill: #2196F3;
   transition-duration: 250ms;
 }
@@ -829,6 +794,11 @@ img {
 .roster__button2:hover {
   color: #ECECEC;
   background-color: #2196F3;
+}
+
+.projects {
+  padding-bottom: 94px;
+  padding-top: 56px;
 }
 
 .project__overlay {
@@ -1184,15 +1154,6 @@ img {
   border-color: #EEEEEE;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.projects {
-  padding-bottom: 94px;
-}
-
-.projects {
-  padding-bottom: 94px;
-  padding-top: 56px;
 }
 
 .backdrop {
