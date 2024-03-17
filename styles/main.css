@@ -677,7 +677,7 @@ img {
   padding-top: 94px;
 }
 
-.roster__ul {
+.roster__list {
   display: flex;
   justify-content: center;
   gap: 32px;
@@ -730,7 +730,7 @@ img {
 
 .second__overlay {
   position: absolute;
-  top: 267px;
+  top: 281px;
   width: 370px;
   height: 294px;
   background-color: rgba(33, 150, 243, 0.9);
@@ -978,69 +978,69 @@ img {
   opacity: 1;
 }
 
-.projects__ul {
+.projects__list {
   display: flex;
   gap: 30px;
   flex-wrap: wrap;
   flex-basis: calc(100% - 30px);
 }
 
-.projects__li:nth-child(1):hover {
+.projects__item:nth-child(1):hover {
   border: 1px solid #EEE;
   background: #FFF;
   box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
   transition-duration: 250ms;
 }
 
-.projects__li:nth-child(2):hover {
+.projects__item:nth-child(2):hover {
   border: 1px solid #EEE;
   background: #FFF;
   box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
 
-.projects__li:nth-child(3):hover {
+.projects__item:nth-child(3):hover {
   border: 1px solid #EEE;
   background: #FFF;
   box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
 
-.projects__li:nth-child(4):hover {
+.projects__item:nth-child(4):hover {
   border: 1px solid #EEE;
   background: #FFF;
   box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
 
-.projects__li:nth-child(5):hover {
+.projects__item:nth-child(5):hover {
   border: 1px solid #EEE;
   background: #FFF;
   box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
 
-.projects__li:nth-child(6):hover {
+.projects__item:nth-child(6):hover {
   border: 1px solid #EEE;
   background: #FFF;
   box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
 
-.projects__li:nth-child(7):hover {
+.projects__item:nth-child(7):hover {
   border: 1px solid #EEE;
   background: #FFF;
   box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
 
-.projects__li:nth-child(8):hover {
+.projects__item:nth-child(8):hover {
   border: 1px solid #EEE;
   background: #FFF;
   box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
 
-.projects__li:nth-child(9):hover {
+.projects__item:nth-child(9):hover {
   border: 1px solid #EEE;
   background: #FFF;
   box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
 
-.projects__li {
+.projects__item {
   border-style: solid;
   border-width: 1px;
   border-color: #EEEEEE;
