@@ -1,10 +1,39 @@
-
 .projects {
     padding-bottom: 94px;
     padding-top: 56px;
+
+    
+&__list {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    flex-basis: calc(100% - 90px / 3)
 }
 
-.project__overlay {
+&__item {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #EEEEEE;
+    transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+&:hover {
+    border: 1px solid #EEE;
+    background: $primary-accent;
+    box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+    transition-duration: 250ms;
+}
+}
+
+&__name {
+    @extend %card-name
+}
+
+&__titels {
+    @extend %project-titels
+}
+
+&__first__overlay {
     position: absolute;
     width: 370px;
     height: 294px;
@@ -15,9 +44,13 @@
     transition-property: background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
+
+    &:hover {
+        opacity: 1;
+    }
 }
 
-.projects__discriptions {
+&__first__descriptions {
     position: absolute;
     color: $primary-accent;
 font-family: Roboto;
@@ -29,27 +62,27 @@ letter-spacing: 0.54px;
 margin-top: 63px;
 margin-left: 24px;
 opacity: 0;
-}
 
-.project__overlay:hover {
+&:hover {
     opacity: 1;
 }
-
-.projects__discriptions:hover {
-    opacity: 1;
 }
 
-
-.second__overlay {
+&__second__overlay {
     position: absolute;
     top: 281px;
     width: 370px;
     height: 294px;
     background-color: rgba(33, 150, 243, 0.90);
     opacity: 0;
+
+    
+&:hover {
+    opacity: 1;
+}
 }
 
-.second__discription {
+&__second__description {
     position: absolute;
     color: $primary-accent;
 font-family: Roboto;
@@ -61,26 +94,27 @@ letter-spacing: 0.54px;
 margin-top: 63px;
 margin-left: 24px;
 opacity: 0;
-}
 
-.second__overlay:hover {
+&:hover {
     opacity: 1;
 }
-
-.second__discription {
-    opacity: 1;
 }
 
-.third__overlay {
+&__third__overlay {
     position: absolute;
     top: 267px;
     width: 370px;
     height: 294px;
     background-color: rgba(33, 150, 243, 0.90);
     opacity: 0;
+
+    &:hover {
+        opacity: 1;
+    }
 }
 
-.third__discription {
+
+&__third__description {
     position: absolute;
     color: $primary-accent;
 font-family: Roboto;
@@ -92,17 +126,14 @@ letter-spacing: 0.54px;
 margin-top: 63px;
 margin-left: 24px;
 opacity: 0;
-}
 
-.third__overlay:hover {
+&:hover {
     opacity: 1;
 }
-
-.third__discription {
-    opacity: 1;
 }
 
-.fourth__overlay {
+
+&__fourth__overlay {
     position: absolute;
     width: 370px;
     height: 294px;
@@ -110,9 +141,15 @@ opacity: 0;
     left: 193px;
     background-color: rgba(33, 150, 243, 0.90);
     opacity: 0;
+
+    
+&:hover {
+    opacity: 1;
+}
 }
 
-.fourth__discription {
+
+&__fourth__description {
     position: absolute;
     color: $primary-accent;
 font-family: Roboto;
@@ -124,26 +161,28 @@ letter-spacing: 0.54px;
 margin-top: 63px;
 margin-left: 24px;
 opacity: 0;
-}
 
-.fourth__overlay:hover {
+&:hover {
     opacity: 1;
 }
-
-.fourth__discription:hover {
-    opacity: 1;
 }
 
-.fifth__overlay {
+&__fifth__overlay {
     position: absolute;
     top: 680px;
     width: 370px;
     height: 294px;
     background-color: rgba(33, 150, 243, 0.90);
     opacity: 0;
+
+    
+&:hover {
+    opacity: 1;
+}
 }
 
-.fifth__discription {
+
+&__fifth__description {
     position: absolute;
     color: $primary-accent;
 font-family: Roboto;
@@ -155,26 +194,29 @@ letter-spacing: 0.54px;
 margin-top: 63px;
 margin-left: 24px;
 opacity: 0;
-}
 
-.fifth__overlay:hover {
+&:hover {
     opacity: 1;
 }
-
-.fifth__discription:hover {
-    opacity: 1;
 }
 
-.sixth__overlay {
+
+&__sixth__overlay {
     position: absolute;
     top: 680px;
     width: 370px;
     height: 294px;
     background-color: rgba(33, 150, 243, 0.90);
     opacity: 0;
+
+    
+&:hover {
+    opacity: 1;
+}
 }
 
-.sixth__discription {
+
+&__sixth__description {
     position: absolute;
     color: $primary-accent;
 font-family: Roboto;
@@ -186,17 +228,14 @@ letter-spacing: 0.54px;
 margin-top: 63px;
 margin-left: 24px;
 opacity: 0;
-}
 
-.sixth__overlay:hover {
+&:hover {
     opacity: 1;
 }
-
-.sixth__discription:hover {
-    opacity: 1;
 }
 
-.seventh__overlay {
+
+&__seventh__overlay {
     position: absolute;
     width: 370px;
     height: 294px;
@@ -204,9 +243,15 @@ opacity: 0;
     left: 193px;
     background-color: rgba(33, 150, 243, 0.90);
     opacity: 0;
+
+    &:hover {
+        opacity: 1;
+    }
 }
 
-.seventh__discription {
+
+
+&__seventh__description {
     position: absolute;
     color: $primary-accent;
 font-family: Roboto;
@@ -218,26 +263,31 @@ letter-spacing: 0.54px;
 margin-top: 63px;
 margin-left: 24px;
 opacity: 0;
-}
 
-.seventh__overlay:hover {
+&:hover {
     opacity: 1;
 }
-
-.seventh__discription:hover {
-    opacity: 1;
 }
 
-.eight__overlay {
+
+
+
+&__eight__overlay {
     position: absolute;
     top: 1100px;
     width: 370px;
     height: 294px;
     background-color: rgba(33, 150, 243, 0.90);
     opacity: 0;
+
+    &:hover {
+        opacity: 1;
+    }
 }
 
-.eight__discription {
+
+
+&__eight__description {
     position: absolute;
     color: $primary-accent;
 font-family: Roboto;
@@ -249,26 +299,30 @@ letter-spacing: 0.54px;
 margin-top: 63px;
 margin-left: 24px;
 opacity: 0;
-}
 
-.eight__overlay:hover {
+
+&:hover {
     opacity: 1;
 }
 
-.eight__discription:hover {
-    opacity: 1;
 }
 
-.ninth__overlay {
+
+&__ninth__overlay {
     position: absolute;
     top: 1100px;
     width: 370px;
     height: 294px;
     background-color: rgba(33, 150, 243, 0.90);
     opacity: 0;
+
+    &:hover {
+        opacity: 1;
+    }
 }
 
-.ninth__discription {
+
+&__ninth__description {
     position: absolute;
     color: $primary-accent;
 font-family: Roboto;
@@ -282,92 +336,9 @@ margin-left: 24px;
 opacity: 0;
 }
 
-.ninth__overlay:hover {
-    opacity: 1;
-}
-
-.ninth__discription:hover {
+&:hover {
     opacity: 1;
 }
 
 
-.projects__list {
-    display: flex;
-    gap: 30px;
-    flex-wrap: wrap;
-    flex-basis: calc(100% - 90px / 3)
-}
-
-.projects__item:nth-child(1):hover {
-    border: 1px solid #EEE;
-    background: $primary-accent;
-    box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
-    transition-duration: 250ms;
-    
-}
-  
-
-.projects__item:nth-child(2):hover {
-    border: 1px solid #EEE;
-    background: $primary-accent;
-    box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
-    
-}
-
-.projects__item:nth-child(3):hover{
-    border: 1px solid #EEE;
-    background: $primary-accent;
-    box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
-}
-
-.projects__item:nth-child(4):hover{
-    border: 1px solid #EEE;
-    background: $primary-accent;
-    box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
-}
-
-.projects__item:nth-child(5):hover{
-    border: 1px solid #EEE;
-    background: $primary-accent;
-    box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
-}
-
-.projects__item:nth-child(6):hover{
-    border: 1px solid #EEE;
-    background: $primary-accent;
-    box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
-}
-
-.projects__item:nth-child(7):hover{
-    border: 1px solid #EEE;
-    background: $primary-accent;
-    box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
-}
-
-.projects__item:nth-child(8):hover{
-    border: 1px solid #EEE;
-    background: $primary-accent;
-    box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
-}
-
-.projects__item:nth-child(9):hover{
-    border: 1px solid #EEE;
-    background: $primary-accent;
-    box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
-}
-
-.projects__item {
-    border-style: solid;
-    border-width: 1px;
-    border-color: #EEEEEE;
-    transition-duration: 250ms;
-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.projects__name {
-    @extend %card-name
-}
-
-.projects__titels {
-    @extend %project-titels
 }

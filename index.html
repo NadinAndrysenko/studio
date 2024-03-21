@@ -109,18 +109,18 @@
           <ul class="leisure__list">
             <li class="leisure__item" data-aos="fade-up">
               <img class="leisure__img" src="./img/picture1.png" alt="photo" />
-              <h2 class="relative__box">Десктопні додатки</h2>
-              <div class="overlay__background"></div>
+              <h2 class="leisure__relative">Десктопні додатки</h2>
+              <div class="leisure__overlay"></div>
             </li>
             <li class="leisure__item" data-aos="fade-up">
               <img class="leisure__img" src="./img/picture2.jpg" alt="photo" />
-              <h2 class="relative__box">Мобільні додатки</h2>
-              <div class="overlay__background"></div>
+              <h2 class="leisure__relative">Мобільні додатки</h2>
+              <div class="leisure__overlay"></div>
             </li>
             <li class="leisure__item" data-aos="fade-up">
               <img class="leisure__img" src="./img/picture3.jpg" alt="photo" />
-              <h2 class="relative__box">Дизайнерські рішення</h2>
-              <div class="overlay__background"></div>
+              <h2 class="leisure__relative">Дизайнерські рішення</h2>
+              <div class="leisure__overlay"></div>
             </li>
           </ul>
         </div>
@@ -482,7 +482,7 @@
           />
           <button type="submit" class="newsletter__btn">
             Підписатися
-            <svg class="send">
+            <svg class="newsletter__send">
               <use href="./img/icons.svg#icon-send" class="send__icon"></use>
             </svg>
           </button>
@@ -493,8 +493,8 @@
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="modal__close" data-modal-close>
-          <svg class="close">
-            <use class="close__icon" href="./img/icons.svg#icon-close"></use>
+          <svg class="modal__cross">
+            <use href="./img/icons.svg#icon-close"></use>
           </svg>
         </button>
         <h3 class="modal__title">Залиште свої дані, ми вам передзвонимо</h3>
@@ -551,15 +551,15 @@
                 id="comment"
                 cols="30"
                 rows="5"
-                class="enter__text"
+                class="modal__enter"
                 placeholder="Введіть текст"
               ></textarea>
             </li>
           </ul>
-          <input type="checkbox" class="check" />
+          <input type="checkbox" class="modal__check" />
           <label class="conditions"
             >Погоджуюся з розсилкою та приймаю
-            <a href="#" class="conditions__link">Умови договору</a></label>
+            <a href="#" class="conditions">Умови договору</a></label>
           <button type="submit" class="modal__button">Відправити</button>
         </form>
       </div>

@@ -1,27 +1,34 @@
 
-.backdrop {
-    background-color: rgba(0, 0, 0, 0.20);
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    top: 0;
-    right: 0;
-    z-index: 2;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: opacity  250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-
 .modal {
     width: 528px;
 height: 581px;
 background-color: $primary-accent;
 
+
+
+
+
+&__close {
+    background: none;
 }
 
-.modal__title {
+&__cross {
+    width: 18px;
+height: 18px;
+fill: #000000;
+margin-left: 496px;
+margin-top: 14px;
+border: 1px solid rgba(0, 0, 0, 0.10);
+border-radius: 50%;
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+&:hover {
+    fill: $secondary-accent;
+}
+}
+
+&__title {
     color: $text-color;
     text-align: center;
     font-family: Roboto;
@@ -31,19 +38,17 @@ background-color: $primary-accent;
     line-height: normal;
     letter-spacing: 0.6px;
     margin-bottom: 12px;
-
 }
 
-.modal__list {
+&__list {
     margin-left: 40px;
-    
 }
 
-.modal__item {
+&__item {
     margin-bottom: 10px;
 }
 
-.modal__name {
+&__name {
     color: $secondary-color;
 font-family: Roboto;
 font-size: 12px;
@@ -55,7 +60,48 @@ display: block;
 margin-bottom: 4px;
 }
 
-.enter__text {
+&__input {
+    border-radius: 4px;
+border: 1px solid rgba(33, 33, 33, 0.20);
+outline: none;
+width: 448px;
+height: 40px;
+padding-left: 30px;
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+&:hover {
+    border: 1px solid $secondary-accent; 
+}
+
+&:focus {
+    border: 1px solid $secondary-accent;
+}
+
+}
+
+&__person {
+    width: 18px;
+    height: 18px;
+    position: relative;
+    right: 440px;
+}
+
+&__phone {
+    width: 18px;
+height: 18px;
+position: relative;
+right: 440px;
+}
+
+&__email {
+    width: 18px;
+    height: 18px;
+    position: relative;
+    right: 440px;
+}
+
+&__enter {
     border-radius: 4px;
 border: 1px solid rgba(33, 33, 33, 0.20);
 color: rgba(117, 117, 117, 0.50);
@@ -71,139 +117,50 @@ height: 120px;
 padding-left: 16px;
 padding-top: 12px;
 resize: none;
-}
 
-.enter__text:hover {
+&:hover {
     border: 1px solid $secondary-accent;
 }
+}
 
-.conditions__link {
+&__check {
+    margin-left: 40px;
+}
+
+&__conditions {
     color: $secondary-accent;
     text-decoration: underline;
     transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-}
-
-.conditions__link:hover {
+&:hover {
     color: #1978c5;
 }
-
-.conditions {
-    color: $secondary-color;
-font-family: Roboto;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: 24px; /* 171.429% */
-letter-spacing: 0.42px;
-width: 448px;
-height: 120px;
 }
 
-.check {
-    margin-left: 54px;
+&__button {
+margin-top: 30px;
+margin-left: 165px;
+@extend %button-styles
+}
+}
+
+.backdrop {
+    background-color: rgba(0, 0, 0, 0.20);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity  250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .is-hidden {
     /* display: none; */
     opacity: 0;
     pointer-events: none;
-}
-
-.modal__button {
-margin-top: 30px;
-margin-left: 165px;
-@extend %button-styles
-}
-
-.modal__input {
-    border-radius: 4px;
-border: 1px solid rgba(33, 33, 33, 0.20);
-outline: none;
-width: 448px;
-height: 40px;
-padding-left: 30px;
-transition-duration: 250ms;
-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.modal__input:hover {
-    border: 1px solid $secondary-accent;
-}
-
-.modal__input:focus {
-    border: 1px solid $secondary-accent;
-}
-
-.close {
-    width: 18px;
-height: 18px;
-fill: #000000;
-margin-left: 496px;
-margin-top: 14px;
-border: 1px solid rgba(0, 0, 0, 0.10);
-border-radius: 50%;
-transition-duration: 250ms;
-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.close:hover {
-    fill: $secondary-accent;
-}
-
-.modal__close {
-    background: none;
-}
-
-.send {
-    width: 24px;
-height: 24px;
-}
-
-
-.modal__person {
-    width: 18px;
-    height: 18px;
-    position: relative;
-    right: 440px;
-}
-
-.modal__phone {
-    width: 18px;
-height: 18px;
-position: relative;
-right: 440px;
-}
-
-.modal__email {
-    width: 18px;
-    height: 18px;
-    position: relative;
-    right: 440px;
-}
-
-.relative__box {
-    color: $primary-accent;
-    text-align: center;
-    font-family: Roboto;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 0.42px;
-    text-transform: uppercase;
-    position: relative;
-    bottom: 40px;
-    left: 5px;
-    z-index: 2;
-}
-
-.overlay__background {
-    background-color: rgba(47, 48, 58, 0.80);
-    width: 370px;
-    height: 70px;
-    position: relative;
-    bottom: 86px;
-   
 }

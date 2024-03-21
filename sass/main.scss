@@ -5,15 +5,17 @@
 @import "./utils/mixin";
 
 
-@import "./section/header";
+@import "./components/header";
+@import "./components/footer";
+@import "./components/portfolio/buttons";
+@import "./components/portfolio/projects";
+
+
 @import "./section/hero";
 @import "./section/notes";
 @import "./section/leisure";
 @import "./section/team";
 @import "./section/customers";
-@import "./section/footer";
-@import "./section/buttons-list";
-@import "./section/projects";
 
 @import "./section/modal";
 @import "./section/newsletter";
