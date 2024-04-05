@@ -5,12 +5,20 @@
     padding-top: 60px;
     
 &__container {
-    display: flex;
-    gap: 70px;
+    gap: 60px;
+    @media screen and (min-width: 1200px) {
+        display: flex;
+        gap: 70px;
+    }
+}
+
+&__box {
+    margin-bottom: 60px;
 }
 
 &__wrapper {
     margin-top: 12px;
+    margin-bottom: 60px;
 }
 
 &__title {
@@ -23,13 +31,15 @@
 &__logo {
     color: $primary-accent;
     @include logo-styles(); 
-
 }
 
 &__navs {
     display: flex;
     flex-direction: column;
-    gap: 9px;
+    gap: 8px;
+    @media screen and (min-width: 1200px) {
+        gap: 9px;
+    }
 }
 
 &__adress {

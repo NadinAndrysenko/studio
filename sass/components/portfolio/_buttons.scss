@@ -6,6 +6,10 @@
         display: flex;
         justify-content: center;
         gap: 32px;
+        @media screen and (min-width: 320px) {
+            gap: 8px;
+            flex-wrap: wrap;
+        }
     }
 
 &__button {

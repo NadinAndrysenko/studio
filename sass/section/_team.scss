@@ -1,21 +1,31 @@
 .team {
-    padding-top: 94px;
-    padding-bottom: 94px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     background-color: #F5F4FA;
+    @media screen and (min-width: 1200px) {
+        padding-top: 94px;
+    padding-bottom: 94px;
+    }
 
 
     &__title {
         color: $text-color;
         text-align: center;
         font-family: Roboto;
-        font-size: 36px;
+        font-size: 28px;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
-        letter-spacing: 1.08px;
-        margin-bottom: 50px;
+        letter-spacing: 0.5px;
+        margin-bottom: 30px;
         display: flex;
         justify-content: center;
+
+        @media screen and (min-width: 1200px) {
+            font-size: 36px;
+            letter-spacing: 1.08px;
+            margin-bottom: 50px;
+        }
     }
 
     &__names {
@@ -23,11 +33,33 @@
     }
 
     &__list {
-        display: flex;
         gap: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        @media screen and (max-width: 320px) {
+            flex-direction: column;
+        }
+    
+        @media screen and (min-width: 768px) {
+            flex-wrap: wrap;
+        }
+    
+        @media screen and (min-width: 1200px) {
+            display: flex;
+        }
+
     }
 
     &__item {
+        width: 450px;
+        margin-bottom: 30px;
+        @media screen and (min-width: 1200px) {
+            width: 260px;
+        }
+        @media screen and (max-width: 768px) {
+            width: 354px;
+        }
         border-radius: 0px 0px 4px 4px;
         background: #FFF;
         /* material shadow v1 */
@@ -56,15 +88,31 @@
     }
 
     &__img {
-        width: 260px;
-        height: 270px;
+        width: 450px;
+        height: 460px;
+        @media screen and (min-width: 1200px) {
+            width: 260px;
+            height: 270px;
+        }
+        @media screen and (max-width: 768px) {
+            width: 354px;
+            height: 374px;
+        }
     }
 
     &__svg {
         display: flex;
         gap: 10px;
-        padding-left: 32px;
-        padding-bottom: 30px;
+        padding-left: 122px;
+        padding-bottom: 24px;
+        @media screen and (max-width: 768px) {
+            padding-bottom: 30px;
+            padding-left: 74px;
+        }
+        @media screen and (min-width: 1200px) {
+            padding-bottom: 30px;
+            padding-left: 32px;
+        }
     }
 
     &__link {

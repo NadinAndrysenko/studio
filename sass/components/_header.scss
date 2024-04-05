@@ -1,44 +1,80 @@
 .header {
-    padding-top: 24px;
-    padding-bottom: 25px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+
+    @media screen and (min-width: 1200px) {
+        padding-top: 24px;
+        padding-bottom: 25px;
+    }
+    @media screen and (min-width: 768px) {
+        padding-top: 26px;
+        padding-bottom: 26px;
+    }
 
     &__container {
-        width: 1200px;
+        width: 480px;
         margin-left: auto;
         margin-right: auto;
-        padding: 0 15px;
         display: flex;
         align-items: center;
+
+        @media screen and (min-width: 768px) {
+            width: 769px;
+        }
+        @media screen and (min-width: 1200px) {
+        width: 1200px;
+        }
     }
 
     &__logo {
         color: #000;
-        @include logo-styles();
+        font-size: 24px;
+        @include logo-styles ();
+        @media screen and (min-width: 1200px) {
+            font-size: 26px;
+        }
     }
 
     &__title {
         color: $secondary-accent;
-        @include logo-styles();
+        font-size: 24px;
+        @include logo-styles ();
+        @media screen and (min-width: 1200px) {
+            font-size: 26px;
+        }
     }
 
-    &__list {
-        display: flex;
-        justify-content: center;
-        gap: 50px;
-        margin-right: auto;
-        margin-left: 93px;
+    &__list  {
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+            margin-right: auto;
+            margin-left: 93px;
+            @media screen and (max-width: 768px) {
+                display: none;
+            }
     }
 
     &__information {
-        display: flex;
-        justify-content: end;
-        gap: 50px;
+       
+        @media screen and (max-width: 768px) {
+            display: none;
+        }
+        @media screen and  (min-width: 768px) {
+            gap: 10px;
+
+        }
+        @media screen and  (min-width: 1200px) {
+            gap: 30px;
+            display: flex;
+            justify-content: end;
+        }
     }
 
     &__email {
         color: $secondary-color;
         font-family: Roboto;
-        font-size: 14px;
+        font-size: 12px;
         font-style: normal;
         font-weight: 500;
         line-height: normal;
@@ -46,6 +82,9 @@
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
+        @media screen and (min-width: 1200px) {
+            font-size: 14px;
+        }
 
         &:hover {
             color: $secondary-accent;
@@ -60,7 +99,7 @@
     }
 
     &__studio {
-        color: $secondary-accent;
+            color: $secondary-accent;
         color: $text-color;
         font-family: Roboto;
         font-size: 14px;
@@ -103,7 +142,7 @@
         }
     }
 
-    &__portfolio {
+    &__portfolio {  
         color: $text-color;
         font-family: Roboto;
         font-size: 14px;
@@ -141,12 +180,17 @@
     }
 
     &__envelope {
-        width: 16px;
-        height: 12px;
+        width: 14px;
+        height: 10px;
         fill: $secondary-color;
         margin-right: 10px;
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+        @media screen and (min-width: 1200px) {
+            width: 16px;
+            height: 12px;
+        }
 
         &:hover {
             fill: $secondary-accent;
@@ -155,7 +199,7 @@
 
     &__smartphone {
         width: 10px;
-        height: 16px;
+        height: 14px;
         fill: $secondary-color;
         margin-right: 10px;
         transition-duration: 250ms;
@@ -169,13 +213,17 @@
     &__number {
         color: $secondary-color;
         font-family: Roboto;
-        font-size: 14px;
+        font-size: 12px;
         font-style: normal;
         font-weight: 500;
         line-height: normal;
         letter-spacing: 0.28px;
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+        @media screen and (min-width: 1200px) {
+            font-size: 14px;
+        }
 
         &:hover {
             color: $secondary-accent;

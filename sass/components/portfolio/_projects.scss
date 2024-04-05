@@ -1,13 +1,22 @@
 .projects {
     padding-bottom: 94px;
     padding-top: 56px;
-
     
 &__list {
     display: flex;
     gap: 30px;
     flex-wrap: wrap;
-    flex-basis: calc(100% - 90px / 3)
+    justify-content: center;
+    align-items: center;
+    @media screen and (max-width: 767px ) {
+        flex-direction: column;
+    }
+    @media screen and (min-width: 768px) {
+        flex-basis: calc(100% - 90px / 2)
+    }
+    @media screen and (min-width: 1200px) {
+        flex-basis: calc(100% - 90px / 3) 
+    }
 }
 
 &__item {
@@ -16,6 +25,13 @@
     border-color: #EEEEEE;
     transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+width: 450px;
+@media screen and (min-width: 1200px) {
+    width: 370px;
+}
+@media screen and (min-width: 768px) {
+    width: 354px;
+}
 
 &:hover {
     border: 1px solid #EEE;
@@ -25,12 +41,26 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 }
 
+&__img {
+    width: 450px;
+    height: 294px;
+    @media screen and (min-width: 1200px) {
+        width: 370px;
+        height: 294px;
+    }
+    @media screen and (min-width: 768px) {
+        width: 354px;
+        height: 294px;
+    }
+}
+
 &__name {
-    @extend %card-name
+    @extend %card-name;
 }
 
 &__titels {
-    @extend %project-titels
+    @extend %project-titels;
+
 }
 
 &__first__overlay {
