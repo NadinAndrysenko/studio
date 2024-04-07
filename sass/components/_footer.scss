@@ -14,11 +14,20 @@
 
 &__box {
     margin-bottom: 60px;
+    @media screen and (max-width: 1199px) {
+        flex-direction: row;
+    }
+    @media screen and (max-width: 767px) {
+        margin-left: 163px;
+    }
 }
 
 &__wrapper {
     margin-top: 12px;
     margin-bottom: 60px;
+    @media screen and (max-width: 767px) {
+        margin-left: 167px;
+    }
 }
 
 &__title {
@@ -26,6 +35,9 @@
     @include logo-styles();
     margin-bottom: 20px;
     display: block;
+@media screen and (max-width: 767px) {
+    margin-left: 39px;
+}
 }
 
 &__logo {
@@ -49,6 +61,9 @@
     line-height: 1.71429;
     letter-spacing: 0.03em;
     color: $primary-accent;
+    @media screen and (max-width: 767px) {
+        margin-left: 10px;
+    }
 }
 
 &__link {
@@ -59,6 +74,9 @@
     font-weight: 400;
     line-height: 24px; /* 171.429% */
     letter-spacing: 0.42px;
+    @media screen and (max-width: 767px) {
+        margin-left: 39px;
+    }
 }
 
 
@@ -86,6 +104,9 @@ font-weight: 700;
 line-height: normal;
 letter-spacing: 0.42px;
 text-transform: uppercase;
+@media screen and (max-width: 767px) {
+    margin-left: 30px;
+}
 }
 
 &__items {

@@ -32,6 +32,9 @@
         line-height: normal;
         letter-spacing: 0.42px;
         text-transform: uppercase;
+        @media screen and (max-width: 767px) {
+            margin-left: 137px;
+        }
     }
 
     &__email {

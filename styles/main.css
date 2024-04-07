@@ -391,9 +391,24 @@ img {
 .footer__box {
   margin-bottom: 60px;
 }
+@media screen and (max-width: 1199px) {
+  .footer__box {
+    flex-direction: row;
+  }
+}
+@media screen and (max-width: 767px) {
+  .footer__box {
+    margin-left: 163px;
+  }
+}
 .footer__wrapper {
   margin-top: 12px;
   margin-bottom: 60px;
+}
+@media screen and (max-width: 767px) {
+  .footer__wrapper {
+    margin-left: 167px;
+  }
 }
 .footer__title {
   color: #2196F3;
@@ -405,6 +420,11 @@ img {
   letter-spacing: 0.78px;
   margin-bottom: 20px;
   display: block;
+}
+@media screen and (max-width: 767px) {
+  .footer__title {
+    margin-left: 39px;
+  }
 }
 .footer__logo {
   color: #FFF;
@@ -433,6 +453,11 @@ img {
   letter-spacing: 0.03em;
   color: #FFF;
 }
+@media screen and (max-width: 767px) {
+  .footer__adress {
+    margin-left: 10px;
+  }
+}
 .footer__link {
   color: rgba(255, 255, 255, 0.6);
   font-family: Roboto;
@@ -441,6 +466,11 @@ img {
   font-weight: 400;
   line-height: 24px; /* 171.429% */
   letter-spacing: 0.42px;
+}
+@media screen and (max-width: 767px) {
+  .footer__link {
+    margin-left: 39px;
+  }
 }
 .footer__image {
   display: inline-block;
@@ -463,6 +493,11 @@ img {
   line-height: normal;
   letter-spacing: 0.42px;
   text-transform: uppercase;
+}
+@media screen and (max-width: 767px) {
+  .footer__join {
+    margin-left: 30px;
+  }
 }
 .footer__items {
   width: 44px;
@@ -920,6 +955,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-left: 15px;
 }
 @media screen and (max-width: 767px) {
   .notes__list {
@@ -931,6 +967,7 @@ img {
   .notes__list {
     flex-wrap: wrap;
     margin-bottom: 60px;
+    margin-left: 15px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1063,6 +1100,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 @media screen and (max-width: 320px) {
   .team__list {
@@ -1412,6 +1450,11 @@ img {
   line-height: normal;
   letter-spacing: 0.42px;
   text-transform: uppercase;
+}
+@media screen and (max-width: 767px) {
+  .newsletter__title {
+    margin-left: 137px;
+  }
 }
 .newsletter__email {
   border-radius: 4px;
