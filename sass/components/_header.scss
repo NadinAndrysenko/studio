@@ -235,4 +235,17 @@
             letter-spacing: 0.28px;
         }
     }
+
+    &__burger {
+        background-color: transparent;
+        margin-left: 276px;
+        @media screen and (min-width: 768px) {
+            display: none;
+        }
+    }
+
+    &__burger__icon {
+        width: 40px;
+        height: 40px;
+    }
 }
