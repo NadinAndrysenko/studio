@@ -17,17 +17,11 @@
     @media screen and (max-width: 1199px) {
         flex-direction: row;
     }
-    @media screen and (max-width: 767px) {
-        margin-left: 163px;
-    }
 }
 
 &__wrapper {
     margin-top: 12px;
     margin-bottom: 60px;
-    @media screen and (max-width: 767px) {
-        margin-left: 167px;
-    }
 }
 
 &__title {

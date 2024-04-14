@@ -12,17 +12,14 @@
     }
 
     &__container {
-        width: 480px;
-        margin-left: auto;
-        margin-right: auto;
         display: flex;
         align-items: center;
-
         @media screen and (min-width: 768px) {
             width: 769px;
         }
         @media screen and (min-width: 1200px) {
         width: 1200px;
+        margin-left: 130px;
         }
     }
 
@@ -238,7 +235,7 @@
 
     &__burger {
         background-color: transparent;
-        margin-left: 276px;
+        margin-left: auto;
         @media screen and (min-width: 768px) {
             display: none;
         }

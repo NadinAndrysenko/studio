@@ -148,9 +148,6 @@ img {
   }
 }
 .header__container {
-  width: 480px;
-  margin-left: auto;
-  margin-right: auto;
   display: flex;
   align-items: center;
 }
@@ -162,6 +159,7 @@ img {
 @media screen and (min-width: 1200px) {
   .header__container {
     width: 1200px;
+    margin-left: 130px;
   }
 }
 .header__logo {
@@ -375,7 +373,7 @@ img {
 }
 .header__burger {
   background-color: transparent;
-  margin-left: 276px;
+  margin-left: auto;
 }
 @media screen and (min-width: 768px) {
   .header__burger {
@@ -409,19 +407,9 @@ img {
     flex-direction: row;
   }
 }
-@media screen and (max-width: 767px) {
-  .footer__box {
-    margin-left: 163px;
-  }
-}
 .footer__wrapper {
   margin-top: 12px;
   margin-bottom: 60px;
-}
-@media screen and (max-width: 767px) {
-  .footer__wrapper {
-    margin-left: 167px;
-  }
 }
 .footer__title {
   color: #2196F3;
@@ -908,9 +896,9 @@ img {
   line-height: 162%;
   letter-spacing: 1px;
   text-transform: uppercase;
-  width: 360px;
   height: 84px;
   margin: auto;
+  width: 360px;
 }
 @media screen and (min-width: 1200px) {
   .effectively__headline {
@@ -997,7 +985,7 @@ img {
 .notes__item::before {
   content: "";
   display: inline-block;
-  width: 450px;
+  width: 100%;
   height: 120px;
   background: #F5F4FA;
   background-position: center;
@@ -1132,7 +1120,6 @@ img {
 }
 .team__item {
   width: 450px;
-  margin-bottom: 30px;
   border-radius: 0px 0px 4px 4px;
   background: #FFF;
   /* material shadow v1 */
@@ -1145,7 +1132,7 @@ img {
 }
 @media screen and (max-width: 768px) {
   .team__item {
-    width: 354px;
+    width: 100%;
   }
 }
 .team__item:nth-child(2) {
@@ -1167,8 +1154,8 @@ img {
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
 .team__img {
-  width: 450px;
-  height: 460px;
+  width: 100%;
+  height: auto;
 }
 @media screen and (min-width: 1200px) {
   .team__img {
@@ -1184,14 +1171,13 @@ img {
 }
 .team__svg {
   display: flex;
+  justify-content: center;
   gap: 10px;
-  padding-left: 122px;
   padding-bottom: 24px;
 }
 @media screen and (max-width: 768px) {
   .team__svg {
     padding-bottom: 30px;
-    padding-left: 74px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1453,6 +1439,7 @@ img {
   gap: 12px;
   align-items: center;
   margin-top: 20px;
+  flex-wrap: wrap;
 }
 .newsletter__title {
   color: #FFF;
