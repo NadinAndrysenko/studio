@@ -1,5 +1,4 @@
 .newsletter {
-
     margin-top: 12px;
     margin-left: 23px;
 
@@ -22,6 +21,9 @@
         align-items: center;
         margin-top: 20px;
         flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     &__title {
@@ -33,9 +35,10 @@
         line-height: normal;
         letter-spacing: 0.42px;
         text-transform: uppercase;
-        @media screen and (max-width: 767px) {
-            margin-left: 137px;
-        }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     }
 
     &__email {

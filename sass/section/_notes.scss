@@ -20,7 +20,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 15px;
     @media screen and (max-width: 767px) {
         flex-direction: column;
         margin-bottom: 60px;
@@ -29,7 +28,6 @@
     @media screen and (max-width: 1199px) {
         flex-wrap: wrap;
         margin-bottom: 60px;
-    margin-left: 15px;
     }
 
     @media screen and (min-width: 1200px) {
@@ -43,8 +41,6 @@
         display: flex;
         justify-content: center;
     }
-
-    
 }
 
 &__item::before {
@@ -54,33 +50,49 @@
     height: 120px;
     background: #F5F4FA;
     background-position: center;
-    @media screen and (min-width: 768px) {
-        width: 354px;
-    }
-    @media screen and (min-width: 1200px) {
-        width: 270px;
-    }
+    // @media screen and (min-width: 768px) {
+    //     max-width: 354px;
+    // }
+    // @media screen and (min-width: 1200px) {
+    //     width: 270px;
+    // }
     
 }
 
 &__item:nth-child(1)::before {
     background-image: url(../img/antenna.png);
     background-repeat: no-repeat;
+    @media screen and (min-width: 768px) {
+        max-width: 354px;
+    }
+    
 }
 
 &__item:nth-child(2)::before {
     background-image: url(../img/clock.png);
     background-repeat: no-repeat;
+
 }
 
 &__item:nth-child(3)::before {
     background-image: url(../img/diagram.png);
     background-repeat: no-repeat;
+  
 }
 
 &__item:nth-child(4)::before {
     background-image: url(../img/astronaut.png);
     background-repeat: no-repeat;
+
+}
+
+&__item {
+    @media screen and (min-width: 768px) {
+        max-width: 354px;
+    }
+   @media screen and (min-width: 1200px) {
+    max-width: 270px;
+   }
 }
 }
 
