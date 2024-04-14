@@ -15,8 +15,10 @@
 
     &__close__btn {
         background-color: transparent;
-        margin-left: 425px;
+        // margin-left: 425px;
         padding-top: 10px;
+    display: flex;
+    justify-content: end;
     }
 
     &__cross { 
@@ -27,7 +29,6 @@
     &__list {
         margin-right: 221px;
         padding-top: 48px;
-        margin-bottom: 302px;
         gap: 35px;
     }
 
@@ -112,6 +113,10 @@ color: $secondary-accent;
 
 .no-scroll {
     overflow: hidden;
+}
+
+&__box {
+     margin-bottom: 10%;
 }
 
 }

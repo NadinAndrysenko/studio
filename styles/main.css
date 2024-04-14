@@ -1498,8 +1498,9 @@ img {
 
 .menu__close__btn {
   background-color: transparent;
-  margin-left: 425px;
   padding-top: 10px;
+  display: flex;
+  justify-content: end;
 }
 .menu__cross {
   width: 40px;
@@ -1508,7 +1509,6 @@ img {
 .menu__list {
   margin-right: 221px;
   padding-top: 48px;
-  margin-bottom: 302px;
   gap: 35px;
 }
 .menu__studio {
@@ -1578,4 +1578,7 @@ img {
 }
 .menu .no-scroll {
   overflow: hidden;
+}
+.menu__box {
+  margin-bottom: 10%;
 }/*# sourceMappingURL=main.css.map */
