@@ -2,10 +2,12 @@
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 @media screen and (max-width: 1200px) {
   .container {
     max-width: 100%;
+    padding: 0 15px;
   }
 }
 
@@ -154,7 +156,6 @@ img {
 @media screen and (min-width: 768px) {
   .header__container {
     width: 769px;
-    margin-left: 130px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -394,6 +395,13 @@ img {
 .footer__container {
   gap: 60px;
 }
+@media screen and (min-width: 768px) {
+  .footer__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
 @media screen and (min-width: 1200px) {
   .footer__container {
     display: flex;
@@ -419,11 +427,6 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-@media screen and (max-width: 767px) {
-  .footer__title {
-    margin-left: 39px;
-  }
 }
 .footer__logo {
   color: #FFF;
@@ -454,11 +457,6 @@ img {
   letter-spacing: 0.03em;
   color: #FFF;
 }
-@media screen and (max-width: 767px) {
-  .footer__adress {
-    margin-left: 10px;
-  }
-}
 .footer__link {
   color: rgba(255, 255, 255, 0.6);
   font-family: Roboto;
@@ -467,11 +465,6 @@ img {
   font-weight: 400;
   line-height: 24px; /* 171.429% */
   letter-spacing: 0.42px;
-}
-@media screen and (max-width: 767px) {
-  .footer__link {
-    margin-left: 39px;
-  }
 }
 .footer__image {
   display: inline-block;
@@ -495,10 +488,13 @@ img {
   line-height: normal;
   letter-spacing: 0.42px;
   text-transform: uppercase;
-  margin-left: 30px;
   display: flex;
-  justify-content: center;
   align-items: center;
+}
+@media screen and (max-width: 1199px) {
+  .footer__join {
+    justify-content: center;
+  }
 }
 .footer__items {
   width: 44px;
@@ -939,6 +935,7 @@ img {
 
 .notes {
   padding-top: 60px;
+  padding-bottom: 60px;
 }
 @media screen and (min-width: 1200px) {
   .notes {
@@ -966,7 +963,6 @@ img {
 @media screen and (max-width: 1199px) {
   .notes__list {
     flex-wrap: wrap;
-    margin-bottom: 60px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1122,7 +1118,7 @@ img {
   }
 }
 .team__item {
-  width: 450px;
+  width: 354px;
   border-radius: 0px 0px 4px 4px;
   background: #FFF;
   /* material shadow v1 */
@@ -1166,12 +1162,6 @@ img {
     height: 270px;
   }
 }
-@media screen and (max-width: 768px) {
-  .team__img {
-    width: 354px;
-    height: 374px;
-  }
-}
 .team__svg {
   display: flex;
   justify-content: center;
@@ -1213,6 +1203,13 @@ img {
 
 .customer {
   background-color: #FFF;
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+@media screen and (min-width: 1200px) {
+  .customer {
+    padding-bottom: 94px;
+  }
 }
 .customer__title {
   color: #212121;
@@ -1222,7 +1219,6 @@ img {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  padding-top: 60px;
 }
 @media screen and (min-width: 1200px) {
   .customer__title {
@@ -1234,8 +1230,7 @@ img {
   align-items: center;
   justify-content: center;
   margin-top: 30px;
-  padding-bottom: 60px;
-  gap: 50px;
+  gap: 30px;
 }
 @media screen and (min-width: 320px) {
   .customer__list {
@@ -1244,18 +1239,12 @@ img {
 }
 @media screen and (min-width: 1200px) {
   .customer__list {
-    padding-bottom: 94px;
-    padding-top: 50px;
     display: flex;
   }
 }
 .customer__item {
-  width: 106px;
-  height: 60px;
   fill: #AFB1B8;
-  margin-right: 30px;
   transition-duration: 250ms;
-  margin-bottom: 50px;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .customer__logo {
@@ -1451,8 +1440,12 @@ img {
   letter-spacing: 0.42px;
   text-transform: uppercase;
   display: flex;
-  justify-content: center;
   align-items: center;
+}
+@media screen and (max-width: 1199px) {
+  .newsletter__title {
+    justify-content: center;
+  }
 }
 .newsletter__email {
   border-radius: 4px;
@@ -1483,17 +1476,13 @@ img {
 
 .menu__close__btn {
   background-color: transparent;
-  padding-top: 10px;
-  display: flex;
-  justify-content: end;
 }
 .menu__cross {
   width: 40px;
   height: 40px;
 }
 .menu__list {
-  margin-right: 221px;
-  padding-top: 48px;
+  margin-top: 48px;
   gap: 35px;
 }
 .menu__studio {

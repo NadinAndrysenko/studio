@@ -6,6 +6,11 @@
     
 &__container {
     gap: 60px;
+    @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
     @media screen and (min-width: 1200px) {
         display: flex;
         gap: 70px;
@@ -28,9 +33,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-@media screen and (max-width: 767px) {
-    margin-left: 39px;
-}
 }
 
 &__logo {
@@ -56,9 +58,6 @@
     line-height: 1.71429;
     letter-spacing: 0.03em;
     color: $primary-accent;
-    @media screen and (max-width: 767px) {
-        margin-left: 10px;
-    }
 }
 
 &__link {
@@ -69,9 +68,6 @@
     font-weight: 400;
     line-height: 24px; /* 171.429% */
     letter-spacing: 0.42px;
-    @media screen and (max-width: 767px) {
-        margin-left: 39px;
-    }
 }
 
 
@@ -100,10 +96,11 @@ font-weight: 700;
 line-height: normal;
 letter-spacing: 0.42px;
 text-transform: uppercase;
-    margin-left: 30px;
     display: flex;
-    justify-content: center;
     align-items: center;
+    @media screen and (max-width: 1199px) {
+    justify-content: center;
+    }
 }
 
 &__items {
