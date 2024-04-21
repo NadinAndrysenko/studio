@@ -1498,6 +1498,7 @@ img {
 
 .menu__close__btn {
   background-color: transparent;
+  margin-left: 246px;
 }
 .menu__cross {
   width: 40px;
